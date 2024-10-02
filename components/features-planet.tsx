@@ -11,11 +11,11 @@ export default function FeaturesPlanet() {
     <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900">
       <div className="mx-auto max-w-6xl">
       <h2
-              className="pt-10 font-bold font-serif  md:text-6xl text-white text-center"
+              className="pt-10 font-bold font-serif  md:text-7xl text-white text-center"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Todo tipo de evento
+              Todo tipo de evento.
               
             </h2>
         <div className="">
