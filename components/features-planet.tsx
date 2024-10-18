@@ -8,10 +8,10 @@ import PlanetTagImg04 from "@/public/images/planet-tag-04.png";
 
 export default function FeaturesPlanet() {
   return (
-    <section className="relative before:absolute before:inset-0 before:-z-20 before:bg-gray-900">
+    <section className="relative before:absolute before:inset-0 before:-z-20">
       <div className="mx-auto ">
       <h1
-              className="pt-10 font-serif  md:text-5xl  text-white text-center"
+              className="pt-10 font-serif  md:text-5xl  text-black text-center"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
