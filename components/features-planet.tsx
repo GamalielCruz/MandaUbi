@@ -10,8 +10,7 @@ export default function FeaturesPlanet() {
   return (
     <section className="relative before:absolute before:inset-0 before:-z-20">
       <div className="mx-auto ">
-      <h1
-              className="pt-10 font-serif  md:text-5xl  text-black text-center"
+      <h1     className="pt-11 font-serif m-3  text-4xl  text-black text-center"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
@@ -20,9 +19,9 @@ export default function FeaturesPlanet() {
             </h1>
         <div className="">
           {/* Section header */}
-          <div className="mx-auto max-w-3xl">
-          <img className="" data-aos="zoom-y-out"
-              data-aos-delay={150} alt="" data-original-height="425" data-original-width="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDkow4r54A9BJRFTRdNlwq5WqO1cp3mbLeu7sgOBxeljvTNsY1ydsoSHSjS2Q5Pp5g_Z9E1t2IzsborifFc18S9r8zd-0BnTx8kjPrD84sP8PkZ2iaQHaJzH6OpxJh5YnkKtbgTEg9u5ax9G9Y6fCGa7lcXbISkh-wRKlo-eLqtjoC0V6Yu45NxTzC3YE/s1600/Green%20Graphic%20New%20Arrivals%20Website%20Homepage%20Banner%20%28900%20x%20425%20px%29.png"/>          
+          <div className="mx-auto max-w-2xl">
+          <img className=" data-aos="zoom-y-out  items-center 
+              data-aos-delay={150} alt=""  height="335" width="640" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQaeBP-qha6VP7DbKLADFfyk0gMXM6mKxzU3UUSyS6Z0TrngzQXgJnqxyXnn-gHseTPTYYCGLWpdOBXEo02-I2SmjvAuIke_dXbI0gpuIHNmjNwdcsRSnOZLqbAzgtcjIGavqSGLOEZ0_izU7C1YmCs97gI4SwTsL0U1xyt1BI2ndM8gTAhXaiatu1B6w/s1600/Green%20Graphic%20New%20Arrivals%20Website%20Homepage%20Banner%20%285%29.png"/>          
           </div>
         </div>
       </div>

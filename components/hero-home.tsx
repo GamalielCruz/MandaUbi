@@ -22,10 +22,10 @@ export default function HeroHome() {
             >
               <div className="-mx-0.5 flex justify-center -space-x-3">
                 <img
-                  className="box-content rounded-full border-2 border-gray-50"
-                  width={402}
-                  height={102}
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAB2oIyYHfISxm3eYmMTDJFLALV8VVkKew7_fKPEo8ASDKzNrJWGDcXU9BnAHzMta2-OkmGJQRo5nErXvqnBADibQYUwgiatJ5Og2r64G6bYjtSGFeGTkIGnI9B-MFyOeT7aVCSYY_TKlPiMxqWJPWV2DOjXG9alM1a3G11dOMbeStqCez-lJ5johLFI/s1600/Green%20Graphic%20New%20Arrivals%20Website%20Homepage%20Banner%20%281%29.png"
+                  className="box-content "
+                  width={602}
+                  height={202}
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx4mR-Vocccz3XJ4axiC33Drf2PYlMDRckSB4IujjeiJbbGlg3JAHjMM780KtUScDcen8TnkVdJa7gxWp-yhvFiw2ihJqEfrM7w-4V5JqKjqGWWn33tWRznwseCL_hJ5g9en0NDFNVw_0AZ6BbMG7oStb-3lxp8hpEuco7oskPx5RGTgdS3V9sfxmQ2cY/s1600/Green%20Graphic%20New%20Arrivals%20Website%20Homepage%20Banner%20%28900%20x%20425%20px%29%20%281%29.png "
                 />
                 
               </div>
@@ -125,7 +125,7 @@ export default function HeroHome() {
                   height={70}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuwPD1LRp7VV8xpp9TmgAnPpvBbT8eynm8yTqvoWxEQvhc5svzyBdRFHgVRI3D7sLDDCKAaBeOGQjy_VSWHukmhXQnSedQ90Iw7gGf2GMTdNQKVIUh_c2F5N6gTp9ojXjl9zyOIbR1LQ47mDl-S1Ftpn9SUmT9x4tN4gMWCSt9tl3LWqWozdbAuLxrLCs/s1600/1%20%283%29.png"
                 />   
-                <p className="text-black text-2xl">Entrega exprés</p>
+                <p className="text-black text-2xl">Entrega express</p>
               </h3>
               <p className="text-[15px] text-black">
               Tu invitación, lista en 72 horas como máximo.
@@ -167,7 +167,7 @@ export default function HeroHome() {
                   height={60}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKSQAV7Ei7lkLE00RtIJqSWIaUXtACSVruYcVmlrcCd3YJJzle6zMyILaunhyphenhyphen3zECFeFkfmC3BOWb9Yge0bJaadKE0AkNcY6UGcnRMCWzXNx2lFfoM-gYwNb-_b9qX2GFLGL1oSTbgt-SYGRNThgl-0CBIItEHPzA7WGLZjjegHgTJONDbZFs9a6mOpvY/s1600/1%20%287%29.png"
                 />   
-                <p className="text-black text-2xl">MiFiesta.com*</p>
+                <p className="text-black text-2xl">GerardoyMaria.com*</p>
               </h3>
               <p className="text-[15px] text-black">
               Para tu ocasión especial con el nombre que siempre soñaste. 
