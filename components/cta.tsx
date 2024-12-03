@@ -75,12 +75,13 @@ export default function Cta() {
         </li>
       </ul>
       <a href="#" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Comprar</a>
+      <a href="#" aria-describedby="tier-hobby" className="mt-1 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Ejemplo</a>
     </div>
 
     <div className="relative rounded-3xl bg-gray-900 p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
       <h3 id="tier-enterprise" className="text-base/7 font-semibold text-indigo-400">Paquete Océano</h3>
       <p className="mt-4 flex items-baseline gap-x-2">
-        <span className="text-5xl font-semibold tracking-tight text-white">$1,300</span>
+        <span className="text-5xl font-semibold tracking-tight text-white">$1,500</span>
         <span className="text-base text-gray-400">/Pago único</span>
       </p>
       <p className="mt-6 text-base/7 text-gray-300">Ideal para quienes buscan una experiencia de personalización completa.</p>
@@ -89,19 +90,19 @@ export default function Cta() {
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Todas las funciones del Paquete Isla
+          Todas las funciones del Paquete Isla.
         </li>
         <li className="flex gap-x-0">
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Diseño personalizado para cada invitado. 
+          Diseño personalizado por invitado.
         </li>
         <li className="flex gap-x-0">
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Dominio personalizado, ej:"ElNombreDeTuFiesta.com".
+          Dominio personalizado. "ejemplo.com"
         </li>
         <li className="flex gap-x-0">
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
@@ -113,16 +114,17 @@ export default function Cta() {
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Agradecimientos a tus invitados. (después de tu evento)
+          Agradecimientos a invitados. 
         </li>
         <li className="flex gap-x-0">
           <svg className="h-6 w-5 flex-none text-indigo-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon">
             <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 0 1 .143 1.052l-8 10.5a.75.75 0 0 1-1.127.075l-4.5-4.5a.75.75 0 0 1 1.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 0 1 1.05-.143Z" clip-rule="evenodd" />
           </svg>
-          Código QR.
+          Códigos QR a invitados.
         </li>
       </ul>
       <a href="#" aria-describedby="tier-enterprise" className="mt-8 block rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Comprar</a>
+      <a href="#" aria-describedby="tier-enterprise" className="mt-1 block rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Ejemplo</a>
     </div>
   </div>
 </div>
