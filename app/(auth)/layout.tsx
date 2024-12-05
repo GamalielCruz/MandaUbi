@@ -5,53 +5,39 @@ export default function layout() {
   return (
     <section className="relative">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
-      <PageIllustrationOne />
-              <div className="relative ">
-              <div
-   className="bg-cover  relative "
-   style={{
-    backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK30VFIw-8Zl3-KBGDADgE4uINFKa2_H0dpJ3yfkvijRHDyPLqYHzMDYXjUfetd-nQF3HJdAV6gJ4OkuNtHX0SYoE_QHmCO5v_c5Q_FduyPv1wkub-qhtj173JakBiIDZ_yCUOP30rq5Ne7-q_8AJMMY7FXJHjCS8inK4wGOFKQyb7Y5vtC8hjKbyhKfk/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%284%29.png')`,
-     height: "400px",
-    }}
-  >
-</div>
+      
+            <div className="w-full h-screen max-h-[36rem] p-24 relative overflow-hidden block z-10
+            bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')]
+            bg-cover
+            bg-no-repeat
+            bg-top
+            bg-transparent
+            ">
+            <div className=" relative block justify-items-center">
 
-                <div className="relative top-0 left-0 w-full h-full z-10 bg-black/50 flex items-center justify-center flex-col gap-5 ">
-                </div>
-              </div>
-
-              <div className="p-5 flex justify-center -space-x-3">
-                <img
-                  className="box-content "
-                  width={302}
-                  height={102}
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijVSXnEAb28m474DkAdb7SEf5Irlqh0LNyJXpAmQALJ91LzvdDNc9tLjQUVmXIanzD1jlO_asc51zYMJggQSl0swELgSa_EHojxJoSaIl_nA4wVC-OCmYK6otRzp7HAAGZv6X-MzeiOnCx46ml26Cox6pFYe2Gfsn61v6QmaSbl1b1wMouoqxlgb3yaZU/s1600/body%20img%20className=min-w-max%20min-h-full%20%282%29.png"
+            <div className="p-5  max-w-xs justify-center ">
+                <img className="box-content" 
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAEN77EU5GHtadNG4D4hK6u5hD88F5CTxzMNzcPYT-q5vAnAJU7RYxzh3EyQQd6_SeBhsPN-5CE_eYb9AAByew-1k8v6KpeGSGk_Wa3O9O3-j08Qaxf70XWTteYAf3I3VyRzXO-tcYjAqN-LAdLImIShb8ihDz7Y_QuIyRRRDOCn1aBTB8OkmId2hM4yk/s1600/1.png"
                 />
-              </div>
+            </div>
 
-              <p className="-m-14 text-2xl text-center font-mono" 
-              >
-                MIS XV AÑOS
-              </p>
-              <br/>
-              <h1 className="p-10 text-5xl text-center font-serif font-bold">
+	          <h1 className="-m-10 text-gray-50 text-center font-mono text-4xl justify-center"> MIS XV AÑOS</h1>
+            
+            <h1 className="p-16 text-5xl text-gray-50 font-serif font-bold flex justify-center">
                 Brenda
-              </h1>
-              <br/>
-              <p className="-m-10 text-2xl text-center font-mono" 
-              >
-                26 / DIC / 2024
-              </p>
+            </h1>
 
-              <div className="p-5 flex justify-center -space-x-3">
-                <img
-                  className="box-content "
-                  width={302}
-                  height={102}
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYxVcNmtwvetDWGOXFoLsCViplNN9ccY108NxVqf-lAzJIe0NJfxlzB1T5r6hzoQ_BvG9ovQwS-TcE65zIPh7MJk8Ecyc6QoZOqhG5IyThW9IV9zlBsukZ528iECKMre7gNoAg5i4D09ZWrh0jUx9SMEFCrwliidg_F4we84etktALFhPbGJRRvomsv3c/s1600/body%20img%20className=min-w-max%20min-h-full%20%283%29.png"
+            <p className="-m-10 text-2xl text-white text-center font-mono">
+                26 / DIC / 2024
+            </p>
+
+            <div className="p-5  max-w-xs justify-center ">
+                <img className="box-content" 
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD9i38kTwkM0vj8oK4ckW9fvBhyphenhyphenM1ichfnK2_2KDrfTrj9Gnkz1JRlzdAs32VRuki-4pssSA8Vq3A5QvvTUkg-J43bQR9m4tUspUq_o9h4651gO2KLSxq95jB5TkszXRsOaz_cqj36TPlF2OLMfMkG43nU1ss7eqsJe4jKk-4s9zrF3Gdis4eb-wBvPVA/s1600/2.png"
                 />
-              </div>
-              <div className="w-screen flex items-center justify-center">
+            </div>
+
+            <div className="p-5  max-w-xs justify-center">
               <add-to-calendar-button
               name="Mis XV Años"
               description="Acompañame a mi gran dia!"
@@ -68,8 +54,12 @@ export default function layout() {
               iCalFileName="Reminder-Event"
               label="Agregar a mi calendario"
               />
-               </div>
+            </div>
 
+            </div>
+
+            </div>
+               
 
     </section>
   );
