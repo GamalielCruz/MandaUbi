@@ -5,7 +5,7 @@ export default function layout() {
   return (
     <section className="relative">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
-      
+            <PageIllustrationOne/>
             <div className="w-full h-screen max-h-[36rem] p-24 relative overflow-hidden block z-10
             bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')]
             bg-cover
