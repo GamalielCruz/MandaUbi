@@ -98,7 +98,7 @@ export default function layout() {
             </div>
             
             <div className="justify-items-center bg-white">
-            <h3 className="mb-2 flex items-center space-x-2 font-medium">
+            <h3 className=" items-center space-x-2 font-medium">
               <img
                   className=""
                   width={60}
