@@ -95,7 +95,7 @@ export default function layout() {
             </div>
             </div>
             
-            <div className=" block justify-items-center bg-white">
+            <div className="justify-items-center bg-white">
             <h3 className="mb-2 flex items-center space-x-2 font-medium">
               <img
                   className=""
@@ -109,8 +109,8 @@ export default function layout() {
             </div>
             </div>
 
-            <div className="p-20">
-
+            <div className="p-20 bg-white">
+              Hola
             </div>
 
     </section>
