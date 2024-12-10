@@ -95,20 +95,23 @@ export default function layout() {
 
             <h1 className="p-10 text-gray-900 font-serif">¡Estaría encantada de que me acompañaras en este día tan especial!</h1>          
             </div>
-            </div>
-            
-            <div className="justify-items-center bg-white">
-            <h3 className=" items-center space-x-2 font-medium">
+
+            <div className="static justify-items-center bg-white">
+            <h3 className="  font-medium text-5xl font-serif">
               <img
-                  className=""
+                  className="inline-block"
                   width={60}
                   height={60}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhivapmh1_caSrvpXw-AT_1CAv1F1wjTVSeUZhfEEHXXFg8w0XYhzyPObP9GCq6fa29EeC_y0tiw9Hrq9QBU1Vdyd_aJxFk0EEZaiLTxx3I21TatLZkW5gus4bqwGW3XfZq_La_eZRWceGq7HDHVrv2SiYd0dSfzso86Q7I2Himv7mLlOanFb5j-7x1CIQ/s1600/a%20%285%29.png"
                 /> 
-                <div className="text-5xl font-serif">3</div>
+                3
               </h3>
               <p className=" text-gray-900 text-2xl font-serif">Pases disponibles</p>
             </div>
+
+            </div>
+            
+            
             </div>
 
             <div className="p-20 bg-white">
