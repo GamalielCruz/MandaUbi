@@ -83,12 +83,12 @@ export default function layout() {
             
             
             {/*2 Nombre del invitado*/}
-            <div className="justify-center">
+            <div className="">
             <div className="p-10 m-0 bg-white">              
-            <div className="relative block justify-items-center">          
+            <div className="relative  justify-items-center">          
 	          <h1 className="p-10 text-gray-600 text-center font-serif font-extralight text-3xl justify-center">Invitación para:
             </h1>
-            <h1 className="p-6 text-4xl text-gray-950 font-serif font-semibold flex justify-center">
+            <h1 className="p-6 text-4xl text-gray-950 font-serif font-semibold  text-center">
                 Nombre del invitado
             </h1>            
             <PageIllustrationOne/>
