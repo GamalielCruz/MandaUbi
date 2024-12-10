@@ -131,13 +131,12 @@ export default function layout() {
              className=" rounded-md md:rounded-lg"
           />
            </div>
-          <div className="p-6 static justify-items-center">
-          <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-30 blur-[100px]"></div></div>          
-          <h3 className="  font-medium text-5xl font-serif">
+          <div className="p-4 static justify-items-center">
+          <h3 className="text-5xl ">
               <img
                   className="inline-block justify-items-center"
                   width={200}
-                  height={160}
+                  height={260}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
                 />
               </h3>
@@ -150,6 +149,8 @@ export default function layout() {
           <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
           Pamela Centeno
           </h4>
+          <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-30 blur-[100px]"></div></div>          
+
           </div>
           </div> 
 
