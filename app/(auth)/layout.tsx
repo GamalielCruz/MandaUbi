@@ -83,23 +83,24 @@ export default function layout() {
             
             
             {/*2 Nombre del invitado*/}
-            <div className="justify-items-center text-center">
+            <div className="relative justify-items-center text-center">
             <div className="p-10 m-0 bg-white">              
-            <div className="relative  justify-items-center">          
+            <div className="  justify-items-center">          
 	          <h1 className="p-10 text-gray-600 text-center font-serif font-extralight text-3xl justify-center">Invitación para:
             </h1>
             <h1 className="p-6 text-4xl text-gray-950 font-serif font-semibold  text-center">
                 Nombre del invitado
             </h1>            
-            <PageIllustrationOne/>
+            
 
             <h1 className="p-10 text-gray-900 font-serif">¡Estaría encantada de que me acompañaras en este día tan especial!</h1>          
             </div>
 
             <div className="static justify-items-center bg-white">
+              
             <h3 className="  font-medium text-5xl font-serif">
               <img
-                  className="inline-block"
+                  className="inline-block justify-items-center"
                   width={60}
                   height={60}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhivapmh1_caSrvpXw-AT_1CAv1F1wjTVSeUZhfEEHXXFg8w0XYhzyPObP9GCq6fa29EeC_y0tiw9Hrq9QBU1Vdyd_aJxFk0EEZaiLTxx3I21TatLZkW5gus4bqwGW3XfZq_La_eZRWceGq7HDHVrv2SiYd0dSfzso86Q7I2Himv7mLlOanFb5j-7x1CIQ/s1600/a%20%285%29.png"
@@ -111,11 +112,11 @@ export default function layout() {
 
             </div>
             
-            
+            <PageIllustrationOne/>
             </div>
 
             <div className="p-20 bg-white">
-              Hola
+              v2
             </div>
             </div>
     </section>
