@@ -3,7 +3,7 @@ import 'add-to-calendar-button';
 
 export default function layout() {
   return (
-    <section className="relative">
+    <section className="">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
             
             <div>
@@ -107,18 +107,46 @@ export default function layout() {
                 /> 
                 3
               </h3>
-              <p className=" text-gray-900 text-2xl font-serif">Pases disponibles</p>
+              <p className="p-3 text-gray-900 text-2xl font-serif">Pases disponibles</p>
             </div>
-
+            <div className="p-20 bg-transparent text-transparent  ">
+              ...
+                
+            </div>
             </div>
             
             <PageIllustrationOne/>
             </div>
 
-            <div className="p-20 bg-white">
-              v2
+           
             </div>
-            </div>
+
+           
+           
+          <div className="relative flex flex-col-reverse  shadow-sm border border-slate-200 rounded-lg items-center">
+            <div className="relative p-2.5 max-w-2xl flex-shrink-0 ">
+            <img
+             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV6KHBK81a0-zzPVb2Qvg7QmV4mms_seBE6CvtOO0fcIys923L6mkPzo41s2WyCSLb0fhUBtxFC8a_Fxhbu0kIWbO14jCXGQ2_Ecgf2SZaepiBrB3_nr0ZZQHpWszOGoEql02TwTChAzZZzIhXCxXTmotFnDqV-AM_6w-1bhgUG3ndsUU6kF_YF6Yri7k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%287%29.png"
+             alt="card-image"
+             className=" rounded-md md:rounded-lg"
+          />
+           </div>
+          <div className="p-6">
+          <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-30 blur-[100px]"></div></div>            <h1 className="text-center p-3 font-serif">
+              Padres
+            </h1>
+          <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+          Fernando Gutiérrez 
+          </h4>
+          <h4 className=" mb-2 text-yellow-700 text-4xl text-center font-serif">
+           &
+          </h4>
+          <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+          Pamela Centeno
+          </h4>
+          </div>
+          </div> 
+
     </section>
   );
 }
