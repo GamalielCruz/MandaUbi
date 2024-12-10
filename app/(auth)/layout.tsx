@@ -83,7 +83,7 @@ export default function layout() {
             
             
             {/*2 Nombre del invitado*/}
-            <div className="">
+            <div className="justify-items-center text-center">
             <div className="p-10 m-0 bg-white">              
             <div className="relative  justify-items-center">          
 	          <h1 className="p-10 text-gray-600 text-center font-serif font-extralight text-3xl justify-center">Invitación para:
