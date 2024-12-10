@@ -137,7 +137,7 @@ export default function layout() {
           <img
              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
              alt="card-image"
-             className="p-5 w-2/4 "
+             className="p-5 w-2/4 items-center"
           />
           </div>
           <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
