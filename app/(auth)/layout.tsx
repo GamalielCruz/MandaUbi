@@ -123,10 +123,10 @@ export default function layout() {
 
            
            
-          <div className="relative flex flex-col-reverse md:flex-row shadow-sm  rounded-lg  justify-items-center ">
+          <div className="relative flex flex-col-reverse md:flex-row shadow-sm  rounded-lg  justify-items-center w-full">
             <div className="p-5  justify-items-center">
             <img
-            className=" rounded-md md:rounded-lg max-w-3xl max-h-96  "
+            className=" rounded-md md:rounded-lg max-w-md"
              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV6KHBK81a0-zzPVb2Qvg7QmV4mms_seBE6CvtOO0fcIys923L6mkPzo41s2WyCSLb0fhUBtxFC8a_Fxhbu0kIWbO14jCXGQ2_Ecgf2SZaepiBrB3_nr0ZZQHpWszOGoEql02TwTChAzZZzIhXCxXTmotFnDqV-AM_6w-1bhgUG3ndsUU6kF_YF6Yri7k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%287%29.png"
              alt="card-image"
              
