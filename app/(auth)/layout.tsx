@@ -133,13 +133,13 @@ export default function layout() {
           />
            </div>
           <div className="p-4 inline-block items-center justify-items-center w-full">
-         
+          <div className="flex items-center justify-items-center">
               <img
                   className="w-64 p-6 justify-items-center"
 
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
                 />
-        
+          </div>
           
           <h4 className="mb-2  text-gray-900 text-4xl text-center font-serif">
           Fernando Gutiérrez 
