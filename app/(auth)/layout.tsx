@@ -132,29 +132,30 @@ export default function layout() {
              
           />
            </div>
-          <div className="p-4 inline-block items-center justify-items-center w-full">
-          <div className="flex items-center justify-items-center">
-              <img
-                  className="w-64 p-6 justify-items-center"
+           <div className="p-4 flex flex-col items-center w-full">
+  <div className="flex justify-center items-center w-full">
+    <img
+      className="w-64 p-6"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
+      alt="Imagen de Fernando y Pamela"
+    />
+  </div>
 
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
-                />
-          </div>
-          
-          <h4 className="mb-2  text-gray-900 text-4xl text-center font-serif">
-          Fernando Gutiérrez 
-          </h4>
-          <br/>
-          <h4 className=" mb-2 text-yellow-700 text-4xl text-center font-serif">
-           &
-          </h4>
-          <br/>
-          <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
-          Pamela Centeno
-          </h4>
-          <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-30 blur-[100px]"></div></div>          
+  <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+    Fernando Gutiérrez
+  </h4>
+  <br />
+  <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">&</h4>
+  <br />
+  <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+    Pamela Centeno
+  </h4>
 
-          </div>
+  <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-30 blur-[100px]"></div>
+  </div>
+</div>
+
           </div> 
 
           
