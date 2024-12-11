@@ -6,7 +6,7 @@ export default function layout() {
     <section className="">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
             
-            <div>
+          <div>
             <div className="w-full h-screen max-h-[42rem] p-24 overflow-hidden block z-10
             bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')]
             bg-cover
@@ -119,9 +119,9 @@ export default function layout() {
             </div>
 
            
-            </div>
+          </div>
 
-           
+            
            
           <div className="relative flex flex-col-reverse md:flex-row shadow-sm  rounded-lg  justify-items-center w-full">
             <div className="p-5  justify-items-center">
@@ -158,7 +158,42 @@ export default function layout() {
 
           </div> 
 
-          
+          <div className="relative flex flex-col md:flex-row shadow-sm  rounded-lg  justify-items-center w-full">
+          <div className="p-4 flex flex-col items-center w-full">
+  <div className="flex justify-center items-center w-full">
+    <img
+      className="w-64 p-6"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyDxpvPvZ8thSiPKTnN1tnhPCpoUV2-U0XpdvzyVhiOp49PagFKMx12KHQhXHNFrIM22ecaH_A3GflCteyGoPAPK-864PncGwF6Nuch90h1V-C4IQWsxOJFJqiAJmcdHstnUU0fhs5F2MJpWAXh84U4xovQNFNzHKIHwaJQy6qzQTGM0ES9Lt86xgEhJg/s1600/PADRES%20%282%29.png"
+      alt="Imagen de Fernando y Pamela"
+    />
+  </div>
+
+  <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+    Oscar Juárez
+  </h4>
+  <br />
+  <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">&</h4>
+  <br />
+  <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+    Silvia Castañón
+  </h4>
+
+  <div className="absolute inset-0 -z-10 h-full w-full bg-orange-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]">
+    <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-orange-500 opacity-30 blur-[100px]"></div>
+  </div>
+           </div>
+           <div className="p-5  justify-items-center">
+            <img
+            className=" rounded-md md:rounded-lg max-w-full"
+             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4dKpW9tP3N1uzCkh4-P5TkB_uDvMjNsGRYiGqVfFipI_sTL-wnKGhWy7oRnL4qgvYmbVOeh7UKYu5mq5eYjG-nITcYi1oFLrgAtFImg4MLwLrsEd-8o49xx1-1-Q7pkRPMEuzsX_yurJQ_B3ze-HW1c2EBVgTi1aiVudUCEuYJ8LYQqwOZZhhvvCwRY8/s1600/a%20%286%29.png"
+             alt="card-image"
+             
+          />
+           </div>
+           
+
+          </div> 
+
           
     </section>
   );
