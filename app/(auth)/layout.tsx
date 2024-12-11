@@ -16,7 +16,7 @@ export default function layout() {
             ">
             <div className=" relative block justify-items-center">
 
-            <div className="p-5  max-w-xs justify-center ">
+            <div className="p-5 max-w-xs justify-items-center">
                 <img className="box-content" 
                 src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAEN77EU5GHtadNG4D4hK6u5hD88F5CTxzMNzcPYT-q5vAnAJU7RYxzh3EyQQd6_SeBhsPN-5CE_eYb9AAByew-1k8v6KpeGSGk_Wa3O9O3-j08Qaxf70XWTteYAf3I3VyRzXO-tcYjAqN-LAdLImIShb8ihDz7Y_QuIyRRRDOCn1aBTB8OkmId2hM4yk/s1600/1.png"
                 />
@@ -123,29 +123,32 @@ export default function layout() {
 
            
            
-          <div className="relative flex flex-col-reverse  shadow-sm  rounded-lg  justify-items-center ">
+          <div className="relative flex flex-col-reverse md:flex-row shadow-sm  rounded-lg  justify-items-center ">
             <div className="p-5  justify-items-center">
             <img
-            className=" rounded-md md:rounded-lg max-w-3xl"
+            className=" rounded-md md:rounded-lg max-w-3xl max-h-96  "
              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV6KHBK81a0-zzPVb2Qvg7QmV4mms_seBE6CvtOO0fcIys923L6mkPzo41s2WyCSLb0fhUBtxFC8a_Fxhbu0kIWbO14jCXGQ2_Ecgf2SZaepiBrB3_nr0ZZQHpWszOGoEql02TwTChAzZZzIhXCxXTmotFnDqV-AM_6w-1bhgUG3ndsUU6kF_YF6Yri7k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%287%29.png"
              alt="card-image"
              
           />
            </div>
-          <div className="p-4  justify-items-center">
-          <h3 className="relative block justify-items-center ">
+          <div className="p-4 inline-block items-center justify-items-center w-full">
+          <h3 className="flex  justify-items-center">
               <img
                   className="max-w-xs justify-center"
 
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
                 />
-              </h3>
-          <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+          </h3>
+          
+          <h4 className="mb-2  text-gray-900 text-4xl text-center font-serif">
           Fernando Gutiérrez 
           </h4>
+          <br/>
           <h4 className=" mb-2 text-yellow-700 text-4xl text-center font-serif">
            &
           </h4>
+          <br/>
           <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
           Pamela Centeno
           </h4>
