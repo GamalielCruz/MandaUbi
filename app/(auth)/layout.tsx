@@ -190,19 +190,32 @@ export default function layout() {
           />
            </div>
           </div> 
-          <div className="relative justify-items-center m-14 p-10 ">    
-          <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-red-600 opacity-50 blur-[100px]"></div>
-          <div className="flex justify-center items-center w-full">
-        <img className="w-80 p-6"
-          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
-          alt="Imagen de Fernando y Pamela"
-          />
-        </div>
-          <iframe src="https://www.tickcounter.com/widget/countdown/6283534"></iframe>
-          <div className="text-transparent relative p-5">
-          ...
-          </div>
-          </div>
+
+          <div className="relative justify-items-center m-14 p-10">
+ 
+  <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-red-600 opacity-50 blur-[100px]"></div>
+  
+
+  <div className="flex justify-center items-center w-full">
+    <img
+      className="w-80 p-6"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
+      alt="Imagen de Fernando y Pamela"
+    />
+  </div>
+
+
+  <div className="flex justify-center items-center w-full mt-6">
+    <div className="pointer-events-none">
+      <iframe
+        className="w-full max-w-md aspect-video"
+        src="https://www.tickcounter.com/widget/countdown/6283534"
+        title="Contador de tiempo"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
 
           
     </section>
