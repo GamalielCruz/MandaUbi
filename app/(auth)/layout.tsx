@@ -214,8 +214,117 @@ export default function layout() {
       ></iframe>
     </div>
   </div>
-</div>
+          </div>
 
+
+
+    <div className="relative">
+      
+     <div className="flex justify-center items-center w-full">
+        <img
+        className="w-80 m-20"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2hXJhjE_hN4F2ywoOa1tz61VlingoL3LT5fdO2LjhsxkeD1yC57-dcCbY7407xYFv_W2qf2tzTXf76D535-_H92Bs8GgTxkzS04KONHB2hc18AuNJTzRZysaIl2zTKUyuj2dIEl2QXNUfWN171WO0-47nopxA2Thc2GxNp9diDXy8U8W1DN85O-XphCk/s1600/PADRES%20%284%29.png"
+        alt="Ubicación"
+      />
+    </div>
+
+
+    <div className="flex flex-row justify-center">
+
+    <div className="m-5 relative flex flex-col shadow-sm border border-slate-200 max-w-sm h-96">
+    <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
+    Ceremonia Religiosa
+    </h4>
+  <div className="overflow-hidden rounded-md h-80 flex justify-center items-center">
+    <img className="w-20 " src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQZ-UfQn20eeI4GF6Z1CIm7Skq3R24cxNiV8siyKWwG1J2DlwLSZ85cG27w6dax1HQJNmiUNGFjhzU5DAe_mFEBZ18PFo2NoN_uaoPRZxszli2Ey3lL_ovjKveCEyzXjqVGLpkjco9nHn4w55OkQVfQfCIAEGL4RDfB9kt7S9r3kX-H3euvl5Lrxhfpac/s1600/a%20%2810%29.png" alt="Iglesia" />
+  </div>
+  <div className="p-2 text-center">
+    
+    <p
+      className="text-sm font-serif text-slate-800 uppercase">
+      Sabado 26 de diciembre <br/>17:30 HRS
+    </p>
+    <p className="text-base font-serif text-slate-800 mt-4 font-light ">
+    Parroquia de Nuestra Señora de la Luz <br/> Av. de la Luz S/N, Santa Ana, 76116 Santiago de Querétaro, Qro.
+    </p>
+  </div>
+  <div className="flex justify-center p-6 pt-2 gap-7 ">
+  <a
+  href="https://www.google.com"
+  className="max-w-max text-white w-full bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-between mr-2 mb-2"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <svg
+    className="mr-2 -ml-1 w-4 h-4"
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fab"
+    data-icon="google"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 488 512"
+  >
+    <path
+      fill="currentColor"
+      d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+    ></path>
+  </svg>
+  Ir a la Ubicación
+  </a>
+
+  </div>
+    </div>
+
+    <div className="m-5 relative flex flex-col shadow-sm border border-slate-200 max-w-sm h-96">
+    <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
+    Recepción 
+    </h4>
+  <div className="overflow-hidden rounded-md h-80 flex justify-center items-center">
+    <img className="w-20 " src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia-AZRRy64wKxYGbK4Ksqd12BdrKJmOwVQPxwL1j7N5g0o81TjOh4sAK87IhTTVX-WvAYYXbC5u9yysAF-SEAS4SWNwL6MhsWvK8ifHUfiKuGBZ91FF3q2Jybx2aVB3JtLymqaanVuF_7H7yRTiPpCIJCxz1PHSitigdjzc9VnghMtEpVySY0RVLn9Fy0/s1600/a%20%289%29.png" alt="Iglesia" />
+  </div>
+  <div className="p-2 text-center">
+    
+    <p
+      className="text-sm font-serif text-slate-800 uppercase">
+      Sabado 26 de diciembre <br/>19:40 HRS
+    </p>
+    <p className="text-base font-serif text-slate-800 mt-4 font-light ">
+    Lantana Jardín y Salones <br/> Fraccionamiento Pirámides, Unnamed Road, 76900 Corregidora, Qro.
+    </p>
+  </div>
+  <div className="flex justify-center p-6 pt-2 gap-7 ">
+  <a
+  href="https://www.google.com"
+  className="max-w-max text-white w-full bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-between mr-2 mb-2"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <svg
+    className="mr-2 -ml-1 w-4 h-4"
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fab"
+    data-icon="google"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 488 512"
+  >
+    <path
+      fill="currentColor"
+      d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"
+    ></path>
+  </svg>
+  Ir a la Ubicación
+  </a>
+
+  </div>
+    </div>
+    </div>
+    
+    <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-yellow-600 opacity-100 blur-[300px]"></div>
+
+    </div>
 
           
     </section>
