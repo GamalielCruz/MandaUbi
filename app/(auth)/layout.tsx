@@ -7,7 +7,7 @@ export default function layout() {
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
             
           <div>
-            <div className="w-full h-screen max-h-[42rem] p-24 overflow-hidden block z-10
+            <div className="w-full  max-h-[42rem] p-24 overflow-hidden block z-10
             bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')]
             bg-cover
             bg-no-repeat
@@ -82,8 +82,7 @@ export default function layout() {
         </g>
             </svg>
             </div>
-            
-            
+                       
             {/*2 Nombre del invitado*/}
             <div className="relative justify-items-center text-center">
             <div className="p-10 m-0 ">              
@@ -112,10 +111,7 @@ export default function layout() {
               <p className="p-3 text-gray-900 text-2xl font-serif">Pases disponibles</p>
             </div>
             
-            <div className="p-20 bg-transparent text-transparent  ">
-              ...
-                
-            </div>
+          
             </div>
             
             </div>
@@ -123,7 +119,13 @@ export default function layout() {
            
           </div>
 
-            
+          <div className=" flex justify-center h-44 ">
+           <img
+           className=" "
+           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
+           alt="Imagen de separador vertical"
+            />
+      </div>
            
           <div className="flex flex-col items-center gap-10 p-5">
 
@@ -194,20 +196,26 @@ export default function layout() {
           <div className="relative justify-items-center m-14 p-10">
  
 
-
+      <div className=" flex justify-center h-44 ">
+           <img
+           className=" "
+           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
+           alt="Imagen de separador vertical"
+            />
+      </div>
 
   
 
   <div className="flex justify-center items-center w-full">
     <img
-      className="w-80 p-6"
+      className="w-80 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
-      alt="Imagen de Fernando y Pamela"
+      alt="Solo Falta"
     />
   </div>
 
 
-  <div className="flex justify-center items-center w-full mt-6 bg-yellow-800 rounded-lg">
+  <div className="flex justify-center items-center w-full mt-6 bg-yellow-900 rounded-lg">
     <div className="pointer-events-none">
       <iframe
         className="w-full max-w-md aspect-video"
@@ -219,7 +227,14 @@ export default function layout() {
           </div>
 
 
-
+          <div className=" flex justify-center h-44 ">
+           <img
+           className=" "
+           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
+           alt="Imagen de separador vertical"
+            />
+      </div>
+      
     <div className="relative">
       
      <div className="flex justify-center items-center w-full">
