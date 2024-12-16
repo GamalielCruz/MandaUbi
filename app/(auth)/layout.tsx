@@ -6,126 +6,68 @@ export default function layout() {
     <section className="bg-yellow-50">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
             
-          <div>
-            <div className="w-full  max-h-[42rem] p-24 overflow-hidden block z-10
-            bg-[url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')]
-            bg-cover
-            bg-no-repeat
-            bg-top
-            bg-transparent
-            ">
-            <div className="relative flex flex-col items-center gap-6 p-5">
-  <div className="max-w-xs lg:max-w-md w-full flex justify-center">
-    <img
-      className="box-content w-full h-auto rounded-md object-cover"
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAEN77EU5GHtadNG4D4hK6u5hD88F5CTxzMNzcPYT-q5vAnAJU7RYxzh3EyQQd6_SeBhsPN-5CE_eYb9AAByew-1k8v6KpeGSGk_Wa3O9O3-j08Qaxf70XWTteYAf3I3VyRzXO-tcYjAqN-LAdLImIShb8ihDz7Y_QuIyRRRDOCn1aBTB8OkmId2hM4yk/s1600/1.png"
-      alt="Imagen 1"
-    />
+      <div className="w-full   bg-gray-100 overflow-hidden">
+  <div
+    className="w-full  bg-cover bg-top bg-no-repeat "
+    style={{
+      backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')`,
+    }}
+  >
+    <div className="relative flex flex-col items-center gap-8 max-w-screen-lg mx-auto">
+      <div className="max-w-xs lg:max-w-md w-full flex justify-center overflow-hidden">
+        <img
+          className="w-full h-auto rounded-md object-cover object-top"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAEN77EU5GHtadNG4D4hK6u5hD88F5CTxzMNzcPYT-q5vAnAJU7RYxzh3EyQQd6_SeBhsPN-5CE_eYb9AAByew-1k8v6KpeGSGk_Wa3O9O3-j08Qaxf70XWTteYAf3I3VyRzXO-tcYjAqN-LAdLImIShb8ihDz7Y_QuIyRRRDOCn1aBTB8OkmId2hM4yk/s1600/1.png"
+          alt="Imagen 1"
+        />
+      </div>
+
+      <h1 className="text-gray-50 text-center font-mono text-4xl">MIS XV AÑOS</h1>
+      <h1 className="text-5xl text-gray-50 font-serif font-bold text-center">Brenda</h1>
+      <p className="text-2xl text-white text-center font-mono">26 / DIC / 2024</p>
+
+      <div className="max-w-xs lg:max-w-md w-full flex justify-center overflow-hidden">
+        <img
+          className="w-full h-auto rounded-md object-cover object-top"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD9i38kTwkM0vj8oK4ckW9fvBhyphenhyphenM1ichfnK2_2KDrfTrj9Gnkz1JRlzdAs32VRuki-4pssSA8Vq3A5QvvTUkg-J43bQR9m4tUspUq_o9h4651gO2KLSxq95jB5TkszXRsOaz_cqj36TPlF2OLMfMkG43nU1ss7eqsJe4jKk-4s9zrF3Gdis4eb-wBvPVA/s1600/2.png"
+          alt="Imagen 2"
+        />
+      </div>
+
+      <div className="relative flex justify-center p-5">
+        <add-to-calendar-button
+          name="Mis XV Años"
+          description="Acompañame a mi gran dia!"
+          startDate="2025-02-21"
+          endDate="2025-02-21"
+          startTime="20:00"
+          endTime="21:59"
+          location="https://maps.app.goo.gl/mW3esuWRHgQYhvQo7"
+          options="['Apple','Google','Microsoft365']"
+          timeZone="Mexico/General"
+          trigger="click"
+          inline
+          listStyle="modal"
+          iCalFileName="Reminder-Event"
+          label="Agregar a mi calendario"
+        />
+      </div>
+    </div>
   </div>
 
-  <h1 className="text-gray-50 text-center font-mono text-4xl">MIS XV AÑOS</h1>
-
-  <h1 className="text-5xl text-gray-50 font-serif font-bold text-center">
-    Brenda
-  </h1>
-
-  <p className="text-2xl text-white text-center font-mono">26 / DIC / 2024</p>
-
-  <div className="max-w-xs lg:max-w-md w-full flex justify-center">
-    <img
-      className="box-content w-full h-auto rounded-md object-cover"
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD9i38kTwkM0vj8oK4ckW9fvBhyphenhyphenM1ichfnK2_2KDrfTrj9Gnkz1JRlzdAs32VRuki-4pssSA8Vq3A5QvvTUkg-J43bQR9m4tUspUq_o9h4651gO2KLSxq95jB5TkszXRsOaz_cqj36TPlF2OLMfMkG43nU1ss7eqsJe4jKk-4s9zrF3Gdis4eb-wBvPVA/s1600/2.png"
-      alt="Imagen 2"
-    />
-  </div>
-
-  <div className="w-full flex justify-center">
-    <add-to-calendar-button
-      name="Mis XV Años"
-      description="Acompañame a mi gran dia!"
-      startDate="2025-02-21"
-      endDate="2025-02-21"
-      startTime="20:00"
-      endTime="21:59"
-      location="https://maps.app.goo.gl/mW3esuWRHgQYhvQo7"
-      options="['Apple','Google','Microsoft365']"
-      timeZone="Mexico/General"
-      trigger="click"
-      inline
-      listStyle="modal"
-      iCalFileName="Reminder-Event"
-      label="Agregar a mi calendario"
-    />
-  </div>
+ 
+  
 </div>
 
-            
-            </div>
-            
-            {/*Nubes*/}
-            <div className="relative -mt-12 lg:-mt-24">
-            <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" >
-        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-          <g transform="translate(-2.000000, 44.000000)" fill="#fefce8" fill-rule="nonzero">
-            <path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path>
-            <path
-              d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-              opacity="0.100000001"
-            ></path>
-            <path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" id="Path-4" opacity="0.200000003"></path>
-          </g>
-          <g transform="translate(-4.000000, 76.000000)" fill="#fefce8" fill-rule="nonzero">
-            <path
-              d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"
-            ></path>
-          </g>
-        </g>
-            </svg>
-            </div>
-                       
-            {/*2 Nombre del invitado*/}
-            <div className="relative justify-items-center text-center">
-            <div className="p-10 m-0 ">              
-            <div className="  justify-items-center">          
-	          <h1 className="p-10 text-gray-600 text-center font-serif font-extralight text-3xl justify-center">Invitación para:
-            </h1>
-            <h1 className="p-6 text-4xl text-gray-950 font-serif font-semibold  text-center">
-                Nombre del invitado
-            </h1>            
-            
 
-            <h1 className="p-10 text-gray-900 font-serif">¡Estaría encantada de que me acompañaras en este día tan especial!</h1>          
-            </div>
 
-            <div className="static justify-items-center ">
-              
-            <h3 className="  font-medium text-5xl font-serif">
-              <img
-                  className="inline-block justify-items-center"
-                  width={60}
-                  height={60}
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhivapmh1_caSrvpXw-AT_1CAv1F1wjTVSeUZhfEEHXXFg8w0XYhzyPObP9GCq6fa29EeC_y0tiw9Hrq9QBU1Vdyd_aJxFk0EEZaiLTxx3I21TatLZkW5gus4bqwGW3XfZq_La_eZRWceGq7HDHVrv2SiYd0dSfzso86Q7I2Himv7mLlOanFb5j-7x1CIQ/s1600/a%20%285%29.png"
-                /> 
-                3
-              </h3>
-              <p className="p-3 text-gray-900 text-2xl font-serif">Pases disponibles</p>
-            </div>
-            
-          
-            </div>
-            
-            </div>
-
-           
-          </div>
-
-          <div className=" flex justify-center h-44 ">
+          <div className=" flex justify-center h-44 -m-10">
            <img
            className=" "
            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
            alt="Imagen de separador vertical"
             />
-      </div>
+         </div>
            
           <div className="flex flex-col items-center gap-10 p-5">
 
