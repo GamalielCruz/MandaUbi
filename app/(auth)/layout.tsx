@@ -98,7 +98,7 @@ export default function layout() {
             <h1 className="p-10 text-gray-900 font-serif">¡Estaría encantada de que me acompañaras en este día tan especial!</h1>          
             </div>
 
-            <div className="static justify-items-center bg-yellow-100">
+            <div className="static justify-items-center ">
               
             <h3 className="  font-medium text-5xl font-serif">
               <img
@@ -127,7 +127,7 @@ export default function layout() {
            
           <div className="flex flex-col items-center gap-10 p-5">
 
-  <div className="relative flex flex-col-reverse md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full bg-yellow-100">
+  <div className="relative flex flex-col-reverse md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
    
     <div className="p-5 flex justify-center">
       <img
@@ -158,7 +158,7 @@ export default function layout() {
     </div>
   </div>
 
-  <div className="relative flex flex-col md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full bg-yellow-100">
+  <div className="relative flex flex-col md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
   
     <div className="p-4 flex flex-col items-center w-full max-w-md">
       <div className="flex justify-center items-center w-full">
