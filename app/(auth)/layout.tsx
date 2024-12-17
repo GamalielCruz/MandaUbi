@@ -5,7 +5,8 @@ export default function layout() {
   return (
     <section className="bg-yellow-50">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
-            
+
+    {/* Imagen de fondo + componentes de datos y calendario */}      
       <div className="w-full   bg-gray-100 overflow-hidden">
   <div
     className="w-full  bg-cover bg-top bg-no-repeat "
@@ -57,19 +58,17 @@ export default function layout() {
 
  
   
-</div>
-
-
-
-          <div className=" flex justify-center h-44 -m-10">
+      </div>
+    {/* Separador */}    
+      <div className=" flex justify-center h-44 -m-10">
            <img
            className=" "
            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
            alt="Imagen de separador vertical"
             />
-         </div>
-           
-          <div className="flex flex-col items-center gap-10 p-5">
+      </div>
+    {/* Información familiar mas fotos */}       
+     <div className="flex flex-col items-center gap-10 p-5">
 
   <div className="relative flex flex-col-reverse md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
    
@@ -132,16 +131,13 @@ export default function layout() {
       />
     </div>
   </div>
-</div>
-
-
-          <div className="relative justify-items-center m-14 p-10">
- 
-
-      <div className=" flex justify-center h-44 ">
+     </div>
+    {/* Separador y contador */}    
+    <div className="relative justify-items-center m-14 p-10">
+      <div className=" flex justify-center h-20">
            <img
            className=" "
-           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
+           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5TPosPogzSo1H1v50-twZNkdUS4-oAmpttQfySrKQjU6fLXl-tlrkllUdJljvmT9v50Al3S_vvZ5Rltmw9RXyX59ycX0G66qMxeiKFBoaVcUpJtYKge_qFenwe2QVkVc0I87g1Pnr62spL7xiOzFhNQMx5wZhxPqRYcMDtpgZ7cvCQ_xg3nNHhhoflXE/s1600/Sin%20t%C3%ADtulo%20%28400%20x%20100%20px%29%20%281%29.png"
            alt="Imagen de separador vertical"
             />
       </div>
@@ -166,17 +162,16 @@ export default function layout() {
       ></iframe>
     </div>
   </div>
-          </div>
-
-
-          <div className=" flex justify-center h-44 ">
+    </div>
+    {/* Separador */}      
+    <div className=" flex justify-center h-40 ">
            <img
            className=" "
            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
            alt="Imagen de separador vertical"
             />
-      </div>
-      
+    </div>
+    {/* Ubicación */}       
     <div className="relative">
       
      <div className="flex justify-center items-center w-full">
@@ -294,8 +289,74 @@ export default function layout() {
 </div>
 
     </div>
+    {/* Mesa de regalos */}    
+    <div className="relative">
+      
+     <div className="flex justify-center items-center w-full">
+        <img
+        className="w-96 m-20"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbCbrsfJQjuH6bvyU0rcb5mN65RL4wp4nV7EKQRSj6jFnvMIouXyj3S8dPXrinSoSW_HphcUizv3m6PuP48idFuYk4xKMtOLJI9drgVn9kExNhERZcXLquQNomvEQgsmwM1N4VMcrTUtE99Y8tU2Ybg6Je02kRXM9QJ-RpOUNiqnLjvDBHQH83WnKy-cQ/s1600/PADRES%20%285%29.png"
+        alt="Mesa de regalos"
+      />
+    </div>
+    
+    <div className="text-lg font-serif text-center m-10 text-gray-950">
+      Tu compañía es el mejor regalo, pero si deseas tener un detalle, aquí te compartimos algunas sugerencias:
+    </div>
 
-          
+    <div className="flex flex-wrap justify-center gap-5 p-4">
+
+  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+    <h4 className="p-2 text-2xl font-serif text-slate-900 text-center">
+    Lluvia de Sobres
+    </h4>
+    <div className="overflow-hidden rounded-md h-40 flex justify-center items-center">
+      <img
+        className="w-20"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiIya2gEZqrFbw4tHyJ9twmuRN6feifIQRbGbwoGc3iVGRn8qnt6rqfwnKtZlW_8go67ANuYOH7DTlSKuaUXVJF0_yCue64NylT560Wmkba1Ne6g0JqXyCTV-am3f-qwckUJDyY6GuUBgK1NjWpbnvlurW029jjPFII2f2IW0zlg3H2iYoqYCfBVJuKPk/s1600/a%20%2811%29.png"
+        alt="Sobres"
+      />
+    </div>
+    <div className=" text-center">
+      
+      <p className="text-base font-serif text-slate-900 font-light">
+      Es costumbre entregar un sobre con dinero en efectivo a la quinceañera como detalle especial durante la fiesta de sus XV años
+      </p>
+    </div>
+    
+  </div>
+
+ 
+  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+    <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
+    Liverpool
+    </h4>
+    <div className="p-2 text-center">
+      <p className="text-base font-serif text-slate-800  font-light">
+        Código: <br />
+        1234567
+      </p>
+    </div>
+    <div className="flex justify-center p-4 gap-2">
+      <a
+        href="https://www.google.com"
+        className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+       
+        Ver Regalos
+      </a>
+    </div>
+  </div>
+</div>
+  
+
+<div className="text-transparent p-8">
+  ...
+</div>
+
+    </div>
     </section>
   );
 }
