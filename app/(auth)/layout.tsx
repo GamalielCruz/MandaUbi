@@ -69,19 +69,13 @@ export default function layout() {
       </div>
     {/* Separador y contador */}    
     <div className="relative justify-items-center m-10 p-10">
-      <div className=" flex justify-center h-20">
-           <img
-           className=" "
-           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5TPosPogzSo1H1v50-twZNkdUS4-oAmpttQfySrKQjU6fLXl-tlrkllUdJljvmT9v50Al3S_vvZ5Rltmw9RXyX59ycX0G66qMxeiKFBoaVcUpJtYKge_qFenwe2QVkVc0I87g1Pnr62spL7xiOzFhNQMx5wZhxPqRYcMDtpgZ7cvCQ_xg3nNHhhoflXE/s1600/Sin%20t%C3%ADtulo%20%28400%20x%20100%20px%29%20%281%29.png"
-           alt="Imagen de separador vertical"
-            />
-      </div>
+      
 
   
 
-  <div className="flex justify-center items-center w-64">
+  <div className="flex justify-center items-center ">
     <img
-      className="w-80 "
+      className="w-64 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
       alt="Solo Falta"
     />
@@ -111,7 +105,7 @@ export default function layout() {
       
      <div className="flex justify-center items-center ">
         <img
-        className="w-80 m-20"
+        className="w-72 m-20"
         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2hXJhjE_hN4F2ywoOa1tz61VlingoL3LT5fdO2LjhsxkeD1yC57-dcCbY7407xYFv_W2qf2tzTXf76D535-_H92Bs8GgTxkzS04KONHB2hc18AuNJTzRZysaIl2zTKUyuj2dIEl2QXNUfWN171WO0-47nopxA2Thc2GxNp9diDXy8U8W1DN85O-XphCk/s1600/PADRES%20%284%29.png"
         alt="Ubicación"
       />
@@ -233,7 +227,7 @@ export default function layout() {
       
      <div className="flex justify-center items-center">
         <img
-        className="w-96 m-20"
+        className="w-80 m-20"
         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbCbrsfJQjuH6bvyU0rcb5mN65RL4wp4nV7EKQRSj6jFnvMIouXyj3S8dPXrinSoSW_HphcUizv3m6PuP48idFuYk4xKMtOLJI9drgVn9kExNhERZcXLquQNomvEQgsmwM1N4VMcrTUtE99Y8tU2Ybg6Je02kRXM9QJ-RpOUNiqnLjvDBHQH83WnKy-cQ/s1600/PADRES%20%285%29.png"
         alt="Mesa de regalos"
       />
@@ -377,15 +371,15 @@ export default function layout() {
     <div className=" justify-items-center">
     <div className="flex justify-center items-center">
         <img
-        className="w-96 m-20"
+        className="w-80 m-20"
         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixhwoPRmYi9CjYVBPj1pmTUbUs9nT9mpzRBi-bNqCD9LZgE_jdV28xjavznkCuWIZ42PKxS6ZHpAqfwQijLTYn12Wm-xopo2gCzzYY3AJ1u4sFMGVjPFHf6Ry9630cboElyXMZ7ieTNxguVE6SGoFjhGNHzF8goV6dabWhFiYUYImr9zLfygsxqDXAK_0/s1600/PADRES%20%286%29.png"
         alt="Confirmación asistencia"
       />
 
     </div>  
     
-    <div className="flex flex-wrap justify-center gap-5 p-4">
-    <div className="flex flex-col shadow-lg border w-full sm:w-80 max-w-sm">
+    <div className="flex flex-wrap shadow-lg border justify-center gap-5 bg-gray-50">
+    <div className="flex flex-col  w-full sm:w-80 max-w-sm">
         <div className="flex justify-center items-center p-5">
             <svg fill="#B7B4A8" xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid meet" style={{ height: "50px", width: "50px" }}>
                 <g id="XMLID_468_">
@@ -423,8 +417,7 @@ export default function layout() {
             </a>
         </div>
     </div>
-
-    <div className="flex flex-col shadow-lg border w-full sm:w-80 max-w-sm">
+    <div className="flex flex-col  w-full sm:w-80 max-w-sm">
         <div className="flex justify-center items-center p-5">
             <div style={{ width: "100%", maxWidth: "50px" }}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" style={{ width: "100%", height: "auto" }}>
@@ -436,8 +429,13 @@ export default function layout() {
             Por Teléfono
         </h4>
         <div className="flex justify-center p-4 gap-2">
-            <a href="tel:+123456789" className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
-                Llamar
+        <a href="https://www.whatsapp.com" className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" target="_blank" rel="noopener noreferrer">
+                Con Brenda
+            </a>
+        </div>
+        <div className="flex justify-center p-4 gap-2">
+            <a href="https://www.whatsapp.com" className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" target="_blank" rel="noopener noreferrer">
+                Con Fernado
             </a>
         </div>
     </div>
@@ -445,6 +443,10 @@ export default function layout() {
 
     
     </div>
+
+    <h1 className="p-10 m-10 mb-1 border-y text-2xl font-bold text-gray-900 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.7),transparent)1] md:text-4xl"></h1>
+
+    
 
 
     </section>
