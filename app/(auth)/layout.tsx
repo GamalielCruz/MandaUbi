@@ -7,9 +7,9 @@ export default function layout() {
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
 
     {/* Imagen de fondo + componentes de datos y calendario */}      
-      <div className="w-full aspect-auto bg-gray-100 overflow-hidden shadow-xl ">
+      <div className="w-full bg-gray-100 overflow-hidden shadow-xl ">
   <div
-    className="w-full  bg-cover bg-top bg-no-repeat "
+    className="w-full h-screen bg-cover bg-top bg-no-repeat "
     style={{
       backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVqXZqORModfP26L_AuuqsXCZLKJMgLMjqxkYd_KoIsY7HTSiaYGMVH7Gi-yyh0zXLtwab1tK3os1TTXX_notw7pqEOtPWzHD9c_7BPksZk0QTEkUAWr0KxEiewR9NYoqKaGwmJbLCR0Qync65rVTU4RmzEjuHrZN4-bxzG7Wi1oUHSs__QOaKjSwQsKQ/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%285%29.png')`,
     }}
@@ -60,7 +60,7 @@ export default function layout() {
   
       </div>
     {/* Separador */}    
-      <div className=" flex justify-center h-44 -m-10">
+      <div className="flex justify-center h-44 -m-10 ">
            <img
            className=" "
            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
@@ -73,7 +73,7 @@ export default function layout() {
 
   
 
-  <div className="flex justify-center items-center ">
+  <div className=" flex justify-center items-center ">
     <img
       className="w-60 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
@@ -358,8 +358,7 @@ export default function layout() {
       />
     </div>
   </div>
-</div>
-
+    </div>
     {/* Separador */}      
     <div className=" flex justify-center h-40 ">
            <img
