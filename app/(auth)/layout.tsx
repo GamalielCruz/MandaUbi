@@ -7,7 +7,7 @@ export default function layout() {
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
 
     {/* Imagen de fondo + componentes de datos y calendario */}      
-      <div className="w-full   bg-gray-100 overflow-hidden">
+      <div className="w-full aspect-auto bg-gray-100 overflow-hidden shadow-xl ">
   <div
     className="w-full  bg-cover bg-top bg-no-repeat "
     style={{
@@ -68,21 +68,21 @@ export default function layout() {
             />
       </div>
     {/* Separador y contador */}    
-    <div className="relative justify-items-center m-10 p-10">
+    <div className="relative justify-items-center  p-10 bg-orange-50 -m-5 shadow-xl">
       
 
   
 
   <div className="flex justify-center items-center ">
     <img
-      className="w-64 "
+      className="w-60 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
       alt="Solo Falta"
     />
   </div>
 
 
-  <div className="flex justify-center items-center  mt-6 bg-yellow-900 rounded-lg">
+  <div className="flex justify-center items-center  mt-6 bg-orange-950 aspect-square">
     <div className="pointer-events-none">
       <iframe
         className="w-full max-w-md aspect-video"
@@ -103,7 +103,7 @@ export default function layout() {
     {/* Ubicación */}       
     <div className="relative">
       
-     <div className="flex justify-center items-center ">
+     <div className="flex justify-center items-center">
         <img
         className="w-72 m-20"
         src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2hXJhjE_hN4F2ywoOa1tz61VlingoL3LT5fdO2LjhsxkeD1yC57-dcCbY7407xYFv_W2qf2tzTXf76D535-_H92Bs8GgTxkzS04KONHB2hc18AuNJTzRZysaIl2zTKUyuj2dIEl2QXNUfWN171WO0-47nopxA2Thc2GxNp9diDXy8U8W1DN85O-XphCk/s1600/PADRES%20%284%29.png"
@@ -114,7 +114,7 @@ export default function layout() {
 
     <div className="flex flex-wrap justify-center gap-5 p-4">
 
-  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+  <div className="flex flex-col shadow-xl border w-full sm:w-80 max-w-sm">
     <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
       Ceremonia Religiosa
     </h4>
@@ -163,7 +163,7 @@ export default function layout() {
   </div>
 
  
-  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+  <div className="flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm">
     <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
       Recepción
     </h4>
@@ -220,7 +220,7 @@ export default function layout() {
     </div>
     {/* Separador */}  
     <div>
-    <div className="bg-yellow-950 text-transparent">-</div>
+    <div className="bg-yellow-950 text-transparent opacity-50">-</div>
     </div>
     {/* Mesa de regalos */}    
     <div className="relative">
@@ -233,13 +233,13 @@ export default function layout() {
       />
     </div>
     
-    <div className="text-lg font-serif text-center m-10 text-gray-950">
+    <div className="text-lg font-serif text-center m-5 text-gray-950">
       Tu compañía es el mejor regalo, pero si deseas tener un detalle, aquí te compartimos algunas sugerencias:
     </div>
 
     <div className="flex flex-wrap justify-center gap-5 p-4">
 
-  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+  <div className="flex flex-col shadow-xl border border-slate-200 w-full sm:w-80 max-w-sm">
     <h4 className="p-2 text-2xl font-serif text-slate-900 text-center">
     Lluvia de Sobres
     </h4>
@@ -252,7 +252,7 @@ export default function layout() {
     </div>
     <div className=" text-center">
       
-      <p className="text-base font-serif text-slate-900 font-light">
+      <p className="p-4 text-base font-serif text-slate-900 font-light">
       Es costumbre entregar un sobre con dinero en efectivo a la quinceañera como detalle especial durante la fiesta de sus XV años
       </p>
     </div>
@@ -260,7 +260,7 @@ export default function layout() {
   </div>
 
  
-  <div className="flex flex-col shadow-sm border border-slate-200 w-full sm:w-80 max-w-sm">
+  <div className="flex flex-col shadow-xl border border-slate-200 w-full sm:w-80 max-w-sm">
     <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
     Liverpool
     </h4>
@@ -292,73 +292,74 @@ export default function layout() {
     </div>
     {/* Separador */}  
     <div>
-    <div className="bg-yellow-950 text-transparent">-</div>
+    <div className="bg-yellow-950 text-transparent opacity-50">-</div>
     </div>
     {/* Información familiar mas fotos */}       
-    <div className="flex flex-col items-center  p-5">
+    <div className="flex flex-col items-center p-5">
 
-<div className="relative flex flex-col-reverse md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
- 
-  <div className="p-5 flex justify-center">
-    <img
-      className="rounded-md md:rounded-lg max-w-sm"
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV6KHBK81a0-zzPVb2Qvg7QmV4mms_seBE6CvtOO0fcIys923L6mkPzo41s2WyCSLb0fhUBtxFC8a_Fxhbu0kIWbO14jCXGQ2_Ecgf2SZaepiBrB3_nr0ZZQHpWszOGoEql02TwTChAzZZzIhXCxXTmotFnDqV-AM_6w-1bhgUG3ndsUU6kF_YF6Yri7k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%287%29.png"
-      alt="card-image"
-    />
-  </div>
- 
-  <div className="p-4 flex flex-col items-center w-full max-w-md">
-    <div className="flex justify-center items-center w-full">
+  <div className="relative flex flex-col-reverse md:flex-row shadow-sm rounded-lg justify-center max-w-screen-sm w-full">
+
+    <div className="p-5 flex justify-center shadow-2xl">
       <img
-        className="w-64 p-6"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
-        alt="Imagen de Fernando y Pamela"
+        className="rounded-md md:rounded-lg max-w-xs"  
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV6KHBK81a0-zzPVb2Qvg7QmV4mms_seBE6CvtOO0fcIys923L6mkPzo41s2WyCSLb0fhUBtxFC8a_Fxhbu0kIWbO14jCXGQ2_Ecgf2SZaepiBrB3_nr0ZZQHpWszOGoEql02TwTChAzZZzIhXCxXTmotFnDqV-AM_6w-1bhgUG3ndsUU6kF_YF6Yri7k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%287%29.png"
+        alt="card-image"
       />
     </div>
-    <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
-      Fernando Gutiérrez
-    </h4>
-    <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">
-      &
-    </h4>
-    <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
-      Pamela Centeno
-    </h4>
-    <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+
+    <div className="p-4 flex flex-col items-center w-full max-w-md">
+      <div className="flex justify-center items-center w-full">
+        <img
+          className="w-52 p-6"  
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnwfeO-m-svA1AuRZ4jwrUf1YbU1qoJg10yXMftEJpY1cgyULTujSizv9i-ijYx06fTNhAGRAbmYmwzxKmb4UVBXhY5U69VOIEDDToAREwRTf2y_YWyRrBSuWaU4iGSS4m6oO2gllLZiLvDOWLho82AT52doQ06EYh1lxqVUrsxENdPDLHdWkmnsPcDtQ/s1600/PADRES%20%281%29.png"
+          alt="Imagen de Fernando y Pamela"
+        />
+      </div>
+      <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+        Fernando Gutiérrez
+      </h4>
+      <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">
+        &
+      </h4>
+      <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+        Pamela Centeno
+      </h4>
+      <div className="absolute inset-0 -z-10 h-full w-full bg-yellow-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+    </div>
+  </div>
+
+  <div className="relative flex flex-col md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
+
+    <div className="p-4 flex flex-col items-center w-full max-w-md">
+      <div className="flex justify-center items-center w-full">
+        <img
+          className="w-52 p-6" 
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyDxpvPvZ8thSiPKTnN1tnhPCpoUV2-U0XpdvzyVhiOp49PagFKMx12KHQhXHNFrIM22ecaH_A3GflCteyGoPAPK-864PncGwF6Nuch90h1V-C4IQWsxOJFJqiAJmcdHstnUU0fhs5F2MJpWAXh84U4xovQNFNzHKIHwaJQy6qzQTGM0ES9Lt86xgEhJg/s1600/PADRES%20%282%29.png"
+          alt="Imagen de Oscar y Silvia"
+        />
+      </div>
+      <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+        Oscar Juárez
+      </h4>
+      <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">
+        &
+      </h4>
+      <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
+        Silvia Castañón
+      </h4>
+      <div className="absolute inset-0 -z-10 h-full w-full bg-orange-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+    </div>
+
+    <div className="p-5 flex justify-center shadow-2xl">
+      <img
+        className="rounded-md md:rounded-lg max-w-xs" 
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4dKpW9tP3N1uzCkh4-P5TkB_uDvMjNsGRYiGqVfFipI_sTL-wnKGhWy7oRnL4qgvYmbVOeh7UKYu5mq5eYjG-nITcYi1oFLrgAtFImg4MLwLrsEd-8o49xx1-1-Q7pkRPMEuzsX_yurJQ_B3ze-HW1c2EBVgTi1aiVudUCEuYJ8LYQqwOZZhhvvCwRY8/s1600/a%20%286%29.png"
+        alt="card-image"
+      />
+    </div>
   </div>
 </div>
 
-<div className="relative flex flex-col md:flex-row shadow-sm rounded-lg justify-center max-w-screen-lg w-full">
-
-  <div className="p-4 flex flex-col items-center w-full max-w-md">
-    <div className="flex justify-center items-center w-full">
-      <img
-        className="w-64 p-6"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyDxpvPvZ8thSiPKTnN1tnhPCpoUV2-U0XpdvzyVhiOp49PagFKMx12KHQhXHNFrIM22ecaH_A3GflCteyGoPAPK-864PncGwF6Nuch90h1V-C4IQWsxOJFJqiAJmcdHstnUU0fhs5F2MJpWAXh84U4xovQNFNzHKIHwaJQy6qzQTGM0ES9Lt86xgEhJg/s1600/PADRES%20%282%29.png"
-        alt="Imagen de Oscar y Silvia"
-      />
-    </div>
-    <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
-      Oscar Juárez
-    </h4>
-    <h4 className="mb-2 text-yellow-700 text-4xl text-center font-serif">
-      &
-    </h4>
-    <h4 className="mb-2 text-gray-900 text-4xl text-center font-serif">
-      Silvia Castañón
-    </h4>
-    <div className="absolute inset-0 -z-10 h-full w-full bg-orange-50 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"></div>
-  </div>
-
-  <div className="p-5 flex justify-center">
-    <img
-      className="rounded-md md:rounded-lg max-w-sm"
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4dKpW9tP3N1uzCkh4-P5TkB_uDvMjNsGRYiGqVfFipI_sTL-wnKGhWy7oRnL4qgvYmbVOeh7UKYu5mq5eYjG-nITcYi1oFLrgAtFImg4MLwLrsEd-8o49xx1-1-Q7pkRPMEuzsX_yurJQ_B3ze-HW1c2EBVgTi1aiVudUCEuYJ8LYQqwOZZhhvvCwRY8/s1600/a%20%286%29.png"
-      alt="card-image"
-    />
-  </div>
-</div>
-    </div>
     {/* Separador */}      
     <div className=" flex justify-center h-40 ">
            <img
