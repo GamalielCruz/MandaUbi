@@ -80,7 +80,7 @@ export default function ProgressSlider() {
             <a
               key={index}
               href={`/isla/${index}`}
-              className={` w-full  ${currentIndex === index ? 'block' : 'hidden'}`}
+              className={`relative w-full h-full ${currentIndex === index ? 'block' : 'hidden'}`}
             >
               <span className="sr-only">{item.desc}</span>
             </a>
