@@ -40,33 +40,35 @@ export default function ProgressSlider() {
         </div>
       </header>
 
-      <div className="inline-flex rounded-md shadow-sm place-content-center" role="group">
-        {islands.map((island, index) => (
-          <button
-            key={index}
-            type="button"
-            className={`px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 ${
-              index === 0 ? 'rounded-s-lg' : index === islands.length - 1 ? 'rounded-e-lg' : ''
-            } hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white`}
-            onClick={() => setSelectedIsland(island)}
-          >
-            {island.name}
-          </button>
-        ))}
-      </div>
-
-      <div className="mt-4 p-4 border rounded-lg shadow-lg place-items-center">
-        <h2 className="text-3xl mb-2 font-serif">{selectedIsland.name}</h2>
-        {/* Cambiado a <img> */}
-        <img
-          src={selectedIsland.image}
-          alt={selectedIsland.name}
-          className="mb-4 w-48 h-auto"
-        />
-        <p className="mb-4 font-mono">{selectedIsland.description}</p>
-        <Link href={selectedIsland.link} className="px-4 py-2 text-sky-50 bg-gray-900 rounded-lg shadow-xl hover:bg-gray-700">
-          Ver más
-        </Link>
+      <h2 className="border-y text-2xl font-bold text-gray-950 text-center [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.7),transparent)1] md:text-4xl">
+            Modelos</h2>
+      <div className="flex flex-col items-center justify-center min-h-screen">
+        <div className="mt-4 p-4 border rounded-lg shadow-lg text-center">
+          <h2 className="text-3xl mb-2 font-serif">{selectedIsland.name}</h2>
+          <img
+        src={selectedIsland.image}
+        alt={selectedIsland.name}
+        className="mb-4 w-48 h-auto mx-auto"
+          />
+          <p className="mb-4 font-mono">{selectedIsland.description}</p>
+          <Link href={selectedIsland.link} className="px-4 py-2 text-sky-50 bg-gray-900 rounded-lg shadow-xl hover:bg-gray-700">
+        Ver más
+          </Link>
+        </div>
+        <div className="inline-flex rounded-md shadow-sm mt-4" role="group">
+          {islands.map((island, index) => (
+        <button
+          key={index}
+          type="button"
+          className={`px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 ${
+            index === 0 ? 'rounded-s-lg' : index === islands.length - 1 ? 'rounded-e-lg' : ''
+          } hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white`}
+          onClick={() => setSelectedIsland(island)}
+        >
+          {island.name}
+        </button>
+          ))}
+        </div>
       </div>
     </>
   );
