@@ -1,15 +1,14 @@
 "use client";
 
 import Logo from "@/components/ui/logo";
-import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
 const islands = [
   {
     name: 'Isla Coral',
-    image: '/images/isla-coral.png',
-    description: 'Ideal para XV años, evetos de empresa y más. Conoce más de Isla Coral.',
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiikaM5ooBiH9TPnFomTHKxKv4il5Ih70a-2d2jA5qySfqwAwp-Vadahy_6uSYEBBdOJxn880XQ1LG8-knJvdzsrsbUQicia52rmzzoEqktnaNJIK-HEIXal_WnjEWCzMJuLahJM1JZAKIY0GbtOsySWBmiTULnSqKRMBnE130GfgyK3_AiTYYX8VRS6Ww/s1600/Sin%20t%C3%ADtulo%20%28410%20x%20844%20px%29.png',
+    description: 'Ideal para XV años, eventos de empresa y más.',
     link: '/isla/0'
   },
   {
@@ -58,10 +57,15 @@ export default function ProgressSlider() {
 
       <div className="mt-4 p-4 border rounded-lg shadow-lg place-items-center">
         <h2 className="text-3xl mb-2 font-serif">{selectedIsland.name}</h2>
-        <Image src={selectedIsland.image} alt={selectedIsland.name} width={200} height={300} className="mb-4" priority />
-        <p className="mb-4">{selectedIsland.description}</p>
-        <Link href={selectedIsland.link} className="px-4 py-2 text-sky-50 bg-stone-800 rounded-lg shadow-xl  hover:bg-blue-700">
-          Pantalla Completa
+        {/* Cambiado a <img> */}
+        <img
+          src={selectedIsland.image}
+          alt={selectedIsland.name}
+          className="mb-4 w-48 h-auto"
+        />
+        <p className="mb-4 font-mono">{selectedIsland.description}</p>
+        <Link href={selectedIsland.link} className="px-4 py-2 text-sky-50 bg-gray-900 rounded-lg shadow-xl hover:bg-gray-700">
+          Ver más
         </Link>
       </div>
     </>
