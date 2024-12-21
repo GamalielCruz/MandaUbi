@@ -32,7 +32,7 @@ export default function ProgressSlider() {
     <>
       <header className="relative w-full">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="flex h-16 items-center justify-between md:h-20">
+          <div className="flex h-16 items-center justify-between ">
             <div className="mr-4 shrink-0">
               <Logo />
             </div>
@@ -40,21 +40,22 @@ export default function ProgressSlider() {
         </div>
       </header>
 
-      <h2 className="border-y text-2xl font-bold text-gray-950 text-center [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.7),transparent)1] md:text-4xl">
+      <h2 className=" border-y text-3xl font-bold text-gray-950 text-center [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.7),transparent)1] md:text-4xl">
             Modelos</h2>
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <div className="mt-4 p-4 border rounded-lg shadow-lg text-center">
+      <div className="flex flex-col items-center justify-center ">
+        <div className="mt-4  border rounded-lg shadow-lg text-center">
           <h2 className="text-3xl mb-2 font-serif">{selectedIsland.name}</h2>
           <img
         src={selectedIsland.image}
         alt={selectedIsland.name}
         className="mb-4 w-48 h-auto mx-auto"
           />
-          <p className="mb-4 font-mono">{selectedIsland.description}</p>
-          <Link href={selectedIsland.link} className="px-4 py-2 text-sky-50 bg-gray-900 rounded-lg shadow-xl hover:bg-gray-700">
-        Ver más
-          </Link>
+          <p className="mb-4 font-mono p-4 text-justify">{selectedIsland.description}</p>
+            <Link href={selectedIsland.link} className="px-4 py-2 font-bold text-sky-950 bg-transparent rounded-lg shadow-xl border-2 border-sky-950 hover:bg-sky-50">
+            Ampliar vista
+            </Link>
         </div>
+
         <div className="inline-flex rounded-md shadow-sm mt-4" role="group">
           {islands.map((island, index) => (
         <button
