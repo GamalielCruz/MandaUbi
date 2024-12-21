@@ -1,4 +1,6 @@
 import PageIllustration from "@/components/page-illustration";
+import Link from "next/link";
+
 
 export default function HeroHome() {
   return (
@@ -45,14 +47,16 @@ export default function HeroHome() {
                   data-aos="zoom-y-out"
                   data-aos-delay={450}
                 >
-                  <a
-                    className="btn group mb-4 w-full bg-gradient-to-t from-indigo-200 to-indigo-300 bg-[length:100%_100%] bg-[bottom] text-black shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center">
-                      Ver ejemplo
-                    </span>
-                  </a>
+                 
+                    
+                    <Link
+                href="/examples"
+                className="relative inline-flex items-center btn group mb-4 w-full bg-gradient-to-t from-indigo-200 to-indigo-300 bg-[length:100%_100%] bg-[bottom] text-black shadow hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
+              >
+                Ver Ejemplos
+              </Link>
+                    
+                 
                   <a
                     className="btn w-full bg-white text-gray-800 shadow hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"

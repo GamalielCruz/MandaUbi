@@ -35,15 +35,7 @@ export default function Header() {
                 href="/examples"
                 className="btn-sm bg-white text-gray-800 shadow hover:bg-gray-50"
               >
-                Ejemplos
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/signup"
-                className="btn-sm bg-gray-800 text-gray-200 shadow hover:bg-gray-900"
-              >
-                Register
+                Ver Ejemplos
               </Link>
             </li>
           </ul>
