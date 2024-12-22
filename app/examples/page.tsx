@@ -15,7 +15,7 @@ const islands = [
     name: 'Isla del Sol',
     image: '/images/avatar-01.png',
     description: 'Descripción de Isla del Sol',
-    link: '/isla-del-sol'
+    link: '/isla/1'
   },
   {
     name: 'Isla Esmeralda',
