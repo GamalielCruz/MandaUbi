@@ -74,7 +74,7 @@ export default function Isladelsol() {
 
 
     {/* Separador y contador */}    
-    <div className="relative justify-items-center -translate-y-64 p-10 md:translate-y-14 shadow-xl ">
+    <div className="relative justify-items-center -translate-y-64 p-10 md:translate-y-14  ">
   <div className=" flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600">
   <div className={`${monsieurLaDoulaise.className} text-center text-7xl translate-y-10`}>
         Solo falta
@@ -92,7 +92,7 @@ export default function Isladelsol() {
     <div className="pointer-events-none">
       <iframe
         className="w-full max-w-md "
-        src="https://www.tickcounter.com/widget/countdown/6336961"
+        src="https://www.tickcounter.com/widget/countdown/6338610"
 
         title="Contador de tiempo"
       ></iframe>
