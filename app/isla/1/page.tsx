@@ -23,7 +23,7 @@ export default function Isladelsol() {
     {/* Imagen de fondo + componentes de datos y calendario */}      
     <div className="w-full  overflow-hidden">
   <div
-    className="w-full h-[600px] bg-cover bg-center bg-no-repeat" 
+    className="w-full h-[500px] lg:h-[650px] bg-cover bg-center bg-no-repeat" 
     style={{
       backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5M6IYRjiovXnjOWvLCC6q3qjzzZwX9Cy_jBV_35KTdADV9acLI_D2DvVT-y-5zEERnOhHvViQ8p83_CiWLbAn_L5pL394knE-VhCfhllyrNIpwo8Je77ETcWpD7Kj69RREvS4GL3EwDQc0RKk2F1dF_6qt1wlzwqqr3_7aRRwsNJucG-Dbnw900M7GQ4/s1600/White%20Cream%20Photo%20Wedding%20Invitation.png')`,
     }}
@@ -46,26 +46,54 @@ export default function Isladelsol() {
         <div className="relative">
           Olivia & <br />Richard
         </div>
+
+        {/* fecha */}
+    <div className=' '>
+    <div className=" p-5 m-5 flex flex-col items-center justify-center">
+      <img className="w-80" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKIA8iI0OQfPJy_aeZGqm7wpoDGOW8tZ0W02CplCGnE-v4WAIdDuDef0g52w4v6nh1gxhD86iTmC0TwXea226J8X3MoK4fkrAPkIixkctoPqCF5A32yUU4jFufppK3stzKw48Ab9NcCcPbEmrVfV2MOaBu33pTzTKnn1yTy_76jpkkKjpVhsHjH5YEBU4/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2813%29.png" alt="Solo Falta" />
+      <br />
+      <div>
+        <div className='text-center font-serif  text-black -m-2 text-2xl'>Sabado</div> 
+        <div className={`${monsieurLaDoulaise.className} text-center text-7xl`}>
+        25
+        </div>
+        <div className='text-center font-serif  text-black text-2xl'>Febrero</div> 
+      </div>
+
+      <img className="w-80 translate-y-14" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhThX6mNJcluD9QNYT87cMmC4hjcCELWK9G6Znm6oFf8QvTwnrqZHJiwKuq9Mmdd1IwJL52gKx4NohJwuBozXNfUdJdgQZJLxUwxD9-E1IIM21SPPNljoH-M_nZ8eJEdrn65PiJJYFsoMfs6sVBveqyau1JCCzWkauwDtOfQrizknkIVw2SPjAQXTPE7Mo/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2814%29.png" alt="Solo Falta" />
+    </div>
+    </div>
       </div>
     </div>
+
     
-  </div>
+    
+    </div>
+
+    
+
+
     {/* Separador y contador */}    
     <div className="relative justify-items-center -translate-y-64 p-10 md:translate-y-14 shadow-xl ">
-  <div className=" flex justify-center items-center " data-aos="fade-up" data-aos-delay="600">
+  <div className=" flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600">
+  <div className={`${monsieurLaDoulaise.className} text-center text-7xl translate-y-10`}>
+        Solo falta
+        </div>
+        
     <img
-      className="w-60 "
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKkxZ5pz6b87Pp_9kEVski1HxLDpmXk37WmUzS1mD6lF2589Cd_02t2EfGbo2Gx-ZxGLIRV9IwbEwuh406xh_Lgo4tvePKZo1v-GSc5Kn5kOD3NVegcYc1F7w-OGUGqdobbMvOi3gtvX6syCKXXECiVmfUXT9H7Iuijk79JMFKDvvJUXHJynfK0h5Z6Ac/s1600/PADRES%20%283%29.png"
-      alt="Solo Falta"
+      className="  md:w-60 lg:w-96 "
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhXlpvI_sRokDuVYzxlJuN4pD65VSCx1UOZ4SZEPPFSciwEahe0Mgw7KZ1m-qIbiWXUvRmwVMn4Ndr4S0TY-ZDMPeaXvXtlLev-P83ukHRPu0WFa-MMeIRWuh14IVy4Ev7J4v0zJlYlG8YLDiOiviFwDl53m_zV4yztJ0vpFr9zr0ZkCuf4SdJyGYwJDk/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2815%29.png"
+      alt="separador"
     />
   </div>
 
 
-  <div className="flex justify-center items-center  bg-orange-950 aspect-square" data-aos="fade-up" data-aos-delay="600">
+  <div className="flex justify-center items-center  bg-lime-200  rounded-2xl" data-aos="fade-up" data-aos-delay="600">
     <div className="pointer-events-none">
       <iframe
-        className="w-full max-w-md aspect-video"
-        src="https://www.tickcounter.com/widget/countdown/6283534"
+        className="w-full max-w-md "
+        src="https://www.tickcounter.com/widget/countdown/6336961"
+
         title="Contador de tiempo"
       ></iframe>
     </div>
