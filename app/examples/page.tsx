@@ -13,8 +13,8 @@ const islands = [
   },
   {
     name: 'Isla del Sol',
-    image: '/images/avatar-01.png',
-    description: 'Descripción de Isla del Sol',
+    image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW141G6jJAaCdGx3Z23xol4tDEfR2sZKa2Ly6-7qEdbBgd_BNtvMzFSPfGRAKvxfsyI6dQZ7MMvMGWweloLVOAN5CRjUH3YPxpULCoHeX6LRw1kD2PLP6bYET3ksq2JTgahnigw3kBWEmnk0X20jT3pTqbPBx35zWr7eP3uzM0qgPGS2v3ZeeoQKr4WlA/s1600/Sin%20t%C3%ADtulo%20%28410%20x%20844%20px%29%20%281%29.png',
+    description: 'Perfecta para bodas, aniversarios y momentos únicos.',
     link: '/isla/1'
   },
   {
@@ -40,18 +40,19 @@ export default function ProgressSlider() {
         </div>
       </header>
 
+      <div className="bg-stone-100">
       <h2 className=" border-y text-3xl font-bold text-gray-950 text-center [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.7),transparent)1] md:text-4xl">
             Modelos</h2>
-      <div className="flex flex-col items-center justify-center ">
-        <div className="mt-4  border rounded-lg shadow-lg text-center">
-          <h2 className="text-3xl mb-2 font-serif">{selectedIsland.name}</h2>
+      <div className="flex flex-col items-center justify-center min-w-min ">
+        <div className="mt-4  border rounded-lg  text-center shadow-xl">
+          <h2 className="text-3xl mb-2 font-serif ">{selectedIsland.name}</h2>
           <img
         src={selectedIsland.image}
         alt={selectedIsland.name}
         className="mb-4 w-48 h-auto mx-auto"
           />
-          <p className="mb-4 font-mono p-4 text-justify">{selectedIsland.description}</p>
-            <Link href={selectedIsland.link} className="px-4 py-2 font-bold text-sky-950 bg-transparent rounded-lg shadow-xl border-2 border-sky-950 hover:bg-sky-50">
+          <p className="mb-4 font-mono p-4 text-center">{selectedIsland.description}</p>
+            <Link href={selectedIsland.link} className="px-4 py-2 font-bold text-sky-950 bg-slate-200 rounded-3xl shadow-2xl border-2 border-sky-950 hover:bg-sky-50">
             Ampliar vista
             </Link>
         </div>
@@ -70,6 +71,7 @@ export default function ProgressSlider() {
         </button>
           ))}
         </div>
+      </div>
       </div>
     </>
   );

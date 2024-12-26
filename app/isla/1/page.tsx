@@ -35,13 +35,13 @@ export default function Isladelsol() {
       </div>
     {/* Separador */}    
     
-    <div className="text-center -mt-40 p-16">
+    <div className="text-center -mt-40 p-16 lg:-mt-5 md:translate-y-20  md:bg-[#fffff3]  lg:-translate-y-20">
       <img
-      className="sm:hidden w-screen h-screen opacity-100 -rotate-90 sm:-mt-8 -translate-y-64"
+      className="sm:hidden w-screen h-screen opacity-100 -rotate-90 sm:-mt-8 -translate-y-60 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYZSrXdFuu0jTL0YlJ9ULpKXW5ZDYeu88kVUaf_XYKrfLmMPrLWeG54s5TaXAFe5ZHbGaP8V7STkjcXkmmlW7B6H-c4YD-nXd5q90WWfMH3M3M2CHLitvJCI8P6eU-NRwljnfnNG08eLZfzgpQJaXsKckiJYmJbwLla2dw6-YPoSwNQcsdmpeyiAptRuE/s1600/White%20Cream%20Photo%20Wedding%20Invitation%20%281%29.png"
       alt="Solo Falta"
       />
-      <div className={`${monsieurLaDoulaise.className} text-7xl text-slate-950 sm:mt-0 lg:mt-10 md:p-10 md:translate-y-20 -mt-96 -translate-y-80 relative`} data-aos="fade" data-aos-delay="300">
+      <div className={`${monsieurLaDoulaise.className} text-7xl text-slate-950 sm:mt-0  md:p-10 md:translate-y-20 -mt-96 -translate-y-80 md:-mt-40 relative`} data-aos="fade" data-aos-delay="300">
         <div className="hidden md:block absolute inset-0 bg-[600px] opacity-50"></div>
         <div className="relative">
           Olivia & <br />Richard
