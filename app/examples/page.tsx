@@ -6,21 +6,21 @@ import { useState } from 'react';
 
 const islands = [
   {
-    name: 'Isla Coral',
+    name: 'Coral',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiikaM5ooBiH9TPnFomTHKxKv4il5Ih70a-2d2jA5qySfqwAwp-Vadahy_6uSYEBBdOJxn880XQ1LG8-knJvdzsrsbUQicia52rmzzoEqktnaNJIK-HEIXal_WnjEWCzMJuLahJM1JZAKIY0GbtOsySWBmiTULnSqKRMBnE130GfgyK3_AiTYYX8VRS6Ww/s1600/Sin%20t%C3%ADtulo%20%28410%20x%20844%20px%29.png',
     description: 'Ideal para XV años, eventos de empresa y más.',
     link: '/isla/0',
     icon: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4W8Pdf72AJx9S_D6M7e5DVEeY2bPryY7XTsRJtFo4lofcUPNYtyuL5UDMakmtDAEM2_8p5Iq-_XHijSuVwKBg3MvRkB0eETdfTag-ST6o9Pk3-XtW5znVF8twFpqtXj0Yhyphenhyphen8yFLWYp6KT5i5J8mZd9aqknLA1WsT24bK6bLERUsL_RmOGT0T-Ss_WL-I/s1600/icons8-coral-48.png',
   },
   {
-    name: 'Isla del Sol',
+    name: 'Del Sol',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjW141G6jJAaCdGx3Z23xol4tDEfR2sZKa2Ly6-7qEdbBgd_BNtvMzFSPfGRAKvxfsyI6dQZ7MMvMGWweloLVOAN5CRjUH3YPxpULCoHeX6LRw1kD2PLP6bYET3ksq2JTgahnigw3kBWEmnk0X20jT3pTqbPBx35zWr7eP3uzM0qgPGS2v3ZeeoQKr4WlA/s1600/Sin%20t%C3%ADtulo%20%28410%20x%20844%20px%29%20%281%29.png',
     description: 'Perfecta para bodas, aniversarios y momentos únicos.',
     link: '/isla/1',
     icon:  'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjko9DMyofXZfZktf8IKjuLFRygksLhQVCYj4L2OSVRDQ5qlRvjLZdeZKiZceTYWfWKWrpfAVwQxmL4-s7kyJhq8KbU6rT62aAmJX7A94McBkUndnBpbo9dmB4veoL7fIuBmplXXWSz5JrjcjKhCBNL4XXmgfhOWStRYoBJSRWJYO2qsPS7i5sN-Neap_Q/s1600/icons8-sol-48.png',
   },
   {
-    name: 'Isla Esmeralda',
+    name: 'Esmeralda',
     image: '/images/avatar-02.jpg',
     description: 'Descripción de Isla Esmeralda',
     link: '/isla-esmeralda',
@@ -65,15 +65,19 @@ export default function ProgressSlider() {
         <button
           key={index}
           type="button"
-          className={`m-3 px-4 py-3 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-md
+          className={`m-1 px-4 py-4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-md flex 
           } hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white`}
           onClick={() => setSelectedIsland(island)}
         >
-          <img
-            src={island.icon}
-            className="inline-block w-6 h-6 mr-2 rounded-full"
+          <div className="flex flex-col ">
+          <img src={island.icon}
+            className="inline-block w-7 h-7  "
           />
+          </div>
+          <div className="flex flex-col ">
           {island.name}
+          </div>
+          
         </button>
           ))}
         </div>
