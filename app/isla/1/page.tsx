@@ -1,7 +1,15 @@
 import 'add-to-calendar-button';
 import { Monsieur_La_Doulaise } from '@next/font/google';
+import { Fraunces } from '@next/font/google';
+
 
 const monsieurLaDoulaise = Monsieur_La_Doulaise({
+  subsets: ['latin'],
+  weight: '400', // Ajusta según tus necesidades
+  display: 'swap', // Optimización de carga
+});
+
+const fraunces = Fraunces({
   subsets: ['latin'],
   weight: '400', // Ajusta según tus necesidades
   display: 'swap', // Optimización de carga
@@ -15,7 +23,7 @@ export default function Isladelsol() {
     <>
     
 
-    <div className="bg-[#fffff3]">
+    <div className="bg-[#fafffa]">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
     
 
@@ -35,7 +43,7 @@ export default function Isladelsol() {
       </div>
     {/* Separador */}    
     
-    <div className="text-center -mt-40 p-16 lg:-mt-5 md:translate-y-20  md:bg-[#fffff3]  lg:-translate-y-20">
+    <div className="text-center -mt-40 p-16 lg:-mt-5 md:translate-y-20  md:bg-[#fafffa]  lg:-translate-y-20">
       <img
       className="sm:hidden w-screen h-screen opacity-100 -rotate-90 sm:-mt-8 -translate-y-60 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYZSrXdFuu0jTL0YlJ9ULpKXW5ZDYeu88kVUaf_XYKrfLmMPrLWeG54s5TaXAFe5ZHbGaP8V7STkjcXkmmlW7B6H-c4YD-nXd5q90WWfMH3M3M2CHLitvJCI8P6eU-NRwljnfnNG08eLZfzgpQJaXsKckiJYmJbwLla2dw6-YPoSwNQcsdmpeyiAptRuE/s1600/White%20Cream%20Photo%20Wedding%20Invitation%20%281%29.png"
@@ -125,10 +133,11 @@ export default function Isladelsol() {
 
     <div className="flex flex-wrap justify-center gap-5 p-4" data-aos="fade-up" data-aos-delay="600">
 
-  <div className="bg-[#fffffa] flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
-    <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
-      Ceremonia Religiosa
-    </h4>
+  <div className="bg-[#fbfdfb] flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
+  <div className={`${fraunces.className} p-2 m-3 text-2xl text-slate-900 text-center`}>
+  Ceremonia Religiosa
+        </div>
+    
     <div className="overflow-hidden rounded-md h-40 flex justify-center items-center">
       <img
         className="w-20"
@@ -136,12 +145,12 @@ export default function Isladelsol() {
         alt="Iglesia"
       />
     </div>
-    <div className="p-2 text-center">
-      <p className="text-sm font-serif text-slate-800 uppercase">
+    <div className={`${fraunces.className}p-2 text-center`}>
+      <p className="text-sm  text-gray-950 uppercase">
         Sabado 26 de diciembre <br />
         17:30 HRS
       </p>
-      <p className="text-base font-serif text-slate-800 mt-4 font-light">
+      <p className={`${fraunces.className} text-sm text-gray-950 mt-4 font-light`}>
         Parroquia de Nuestra Señora de la Luz <br />
         Av. de la Luz S/N, Santa Ana, 76116 Santiago de Querétaro, Qro.
       </p>
@@ -174,23 +183,23 @@ export default function Isladelsol() {
   </div>
 
  
-  <div className="flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
-    <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
+  <div className="bg-[#fbfdfb] flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
+    <h4 className="p-2 m-3 text-2xl font-serif text-gray-950 text-center">
       Recepción
     </h4>
     <div className="overflow-hidden rounded-md h-40 flex justify-center items-center">
       <img
         className="w-20"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia-AZRRy64wKxYGbK4Ksqd12BdrKJmOwVQPxwL1j7N5g0o81TjOh4sAK87IhTTVX-WvAYYXbC5u9yysAF-SEAS4SWNwL6MhsWvK8ifHUfiKuGBZ91FF3q2Jybx2aVB3JtLymqaanVuF_7H7yRTiPpCIJCxz1PHSitigdjzc9VnghMtEpVySY0RVLn9Fy0/s1600/a%20%289%29.png"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB3uF9PTjHg8gCf5nLVKk_rtjrue6OTi9xABTVpr6jUFs3sAb002YaY-R2yDb3dgugdC0295Bz3X5m9I34tSCTQrYiEUmWZch0A4MMoaI8pG27rZ-Xcw5McmP8FeVYdwHdSXPW3Ww8hTGZijzwQygDJbeGj33abtYX4y4AHLWipdvYMUxvG7VrJWCeVJI/s1600/a%20%2814%29.png"
         alt="Recepción"
       />
     </div>
     <div className="p-2 text-center">
-      <p className="text-sm font-serif text-slate-800 uppercase">
+      <p className="text-sm font-serif text-gray-950 uppercase">
         Sabado 26 de diciembre <br />
         19:40 HRS
       </p>
-      <p className="text-base font-serif text-slate-800 mt-4 font-light">
+      <p className="text-base font-serif text-gray-950 mt-4 font-light">
         Lantana Jardín y Salones <br />
         Fraccionamiento Pirámides, Unnamed Road, 76900 Corregidora, Qro.
       </p>
@@ -198,7 +207,7 @@ export default function Isladelsol() {
     <div className="flex justify-center p-4 gap-2">
       <a
         href="https://www.google.com"
-        className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-gray-950 bg-[#eefaff] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
