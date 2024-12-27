@@ -81,14 +81,14 @@ export default function Isladelsol() {
         </div>
         
     <img
-      className="  md:w-60 lg:w-96 "
+      className="  md:w-60 lg:w-80 "
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhXlpvI_sRokDuVYzxlJuN4pD65VSCx1UOZ4SZEPPFSciwEahe0Mgw7KZ1m-qIbiWXUvRmwVMn4Ndr4S0TY-ZDMPeaXvXtlLev-P83ukHRPu0WFa-MMeIRWuh14IVy4Ev7J4v0zJlYlG8YLDiOiviFwDl53m_zV4yztJ0vpFr9zr0ZkCuf4SdJyGYwJDk/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2815%29.png"
       alt="separador"
     />
   </div>
 
 
-  <div className="flex justify-center items-center  bg-lime-200  rounded-2xl" data-aos="fade-up" data-aos-delay="600">
+  <div className="flex justify-center items-center  bg-[#f3fff4]  rounded-2xl" data-aos="fade-up" data-aos-delay="600">
     <div className="pointer-events-none">
       <iframe
         className="w-full max-w-md "
@@ -100,35 +100,39 @@ export default function Isladelsol() {
   </div>
     </div>
     {/* Separador */}      
-    <div className=" flex justify-center h-40 ">
+    <div className="flex justify-center h-60 ">
            <img
-           className=" "
-           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1psJblINqG_bDaS620xCdNDG_lYcFCAe-e057dSlrCUt3V5vGqXD8QSv6yoNkZRpl6fsct7coRQxo_zOKnOJxFDT6vhFnoi3SYGPrWxVw8MoR8b0KVvhGYMzUrS2wOekn9MqjB6KZn_3l9GnyGBJfWYEzcMP1e1l4TNBkYenk3cbGsq_WZ3rFUAI5xjE/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2811%29.png"
+           className="-translate-y-56 md:translate-y-4 "
+           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhILF_n2fklvQJ86mHPRvgBQVX_-znS9-CcFv6XZyn4uIh54HW3TTZiWrua2CB1WDpMO5R6gMJ9xUaJD6NRVCBDZmsjvZMKDESCAANDSmJEFsk0o5nzEN62M8dYWXQYcvBefm2xZn8Re3G2MoZT6cAgyWcXdPXr3ZY4B3X9-hKV4eLCCSTVuv5XimfwKgM/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2816%29.png"
            alt="Imagen de separador vertical"
             />
     </div>
     {/* Ubicación */}       
-    <div className="relative">
+    <div className="relative p-10">
       
-     <div className="flex justify-center items-center" data-aos="fade-up" data-aos-delay="600">
-        <img
-        className="w-72 m-20"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2hXJhjE_hN4F2ywoOa1tz61VlingoL3LT5fdO2LjhsxkeD1yC57-dcCbY7407xYFv_W2qf2tzTXf76D535-_H92Bs8GgTxkzS04KONHB2hc18AuNJTzRZysaIl2zTKUyuj2dIEl2QXNUfWN171WO0-47nopxA2Thc2GxNp9diDXy8U8W1DN85O-XphCk/s1600/PADRES%20%284%29.png"
-        alt="Ubicación"
-      />
-    </div>
+    <div className=" flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600">
+  <div className={`${monsieurLaDoulaise.className} text-center text-7xl translate-y-10`}>
+        Ubicación
+        </div>
+        
+    <img
+      className="  md:w-60 lg:w-80 "
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCtLAnszppYMjehQyxS-Kzl5Xd3ndJkGtXyTzf3euuS7fMV3v00I8-Rebk0QVxGyOsCIf1B-xSmhvx0SD8sxdxohyphenhyphenn8QlxDUsuJ0Wt4eqWKW5hJIv1-S78K1XMAGVVKQ_E2b4GKpmT5jV3N8G6FvH9X_jp3jzKANxgX6w3ovcp_o61GZqfHEGERPHED0E/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2817%29.png"
+      alt="separador"
+    />
+  </div>
 
 
     <div className="flex flex-wrap justify-center gap-5 p-4" data-aos="fade-up" data-aos-delay="600">
 
-  <div className="flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
+  <div className="bg-[#fffffa] flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
     <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
       Ceremonia Religiosa
     </h4>
     <div className="overflow-hidden rounded-md h-40 flex justify-center items-center">
       <img
         className="w-20"
-        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQZ-UfQn20eeI4GF6Z1CIm7Skq3R24cxNiV8siyKWwG1J2DlwLSZ85cG27w6dax1HQJNmiUNGFjhzU5DAe_mFEBZ18PFo2NoN_uaoPRZxszli2Ey3lL_ovjKveCEyzXjqVGLpkjco9nHn4w55OkQVfQfCIAEGL4RDfB9kt7S9r3kX-H3euvl5Lrxhfpac/s1600/a%20%2810%29.png"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWaaP1N6MvhL9if3GPpqIDuz_3CHl7xNn9rGzLULtK9eUXuWIG_Mve259ELWPUZEG5mxqHi3x7cQvEUDmVxMF5ae3ZhIDiNZzcIRZJXrx1r0Q4Ebu-vFhyphenhyphenxzJi6wldObtxz7y55VRwnwiDluucadriNuorrYeIGDatiWV5YxHeiczgPFLQUvQ4HVxQIpc/s1600/a%20%2813%29.png"
         alt="Iglesia"
       />
     </div>
@@ -145,7 +149,7 @@ export default function Isladelsol() {
     <div className="flex justify-center p-4 gap-2">
       <a
         href="https://www.google.com"
-        className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-gray-950 bg-[#eefaff] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
