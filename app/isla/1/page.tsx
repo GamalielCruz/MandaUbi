@@ -23,7 +23,7 @@ export default function Isladelsol() {
     <>
     
 
-    <div className="bg-[#fafffa]">
+    <div className="bg-[#fbfdff]">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
     
 
@@ -45,9 +45,9 @@ export default function Isladelsol() {
     
     <div className="text-center -mt-40 p-16 lg:-mt-5 md:translate-y-20  md:bg-[#fafffa]  lg:-translate-y-20">
       <img
-      className="sm:hidden w-screen h-screen opacity-100 -rotate-90 sm:-mt-8 -translate-y-60 "
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYZSrXdFuu0jTL0YlJ9ULpKXW5ZDYeu88kVUaf_XYKrfLmMPrLWeG54s5TaXAFe5ZHbGaP8V7STkjcXkmmlW7B6H-c4YD-nXd5q90WWfMH3M3M2CHLitvJCI8P6eU-NRwljnfnNG08eLZfzgpQJaXsKckiJYmJbwLla2dw6-YPoSwNQcsdmpeyiAptRuE/s1600/White%20Cream%20Photo%20Wedding%20Invitation%20%281%29.png"
-      alt="Solo Falta"
+      className=" sm:hidden w-screen h-screen -rotate-90 sm:-mt-8 -translate-y-60 "
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrvFDlIKKOSEYdHUx1RV1SIHmBkO2OR-wFutNJ2kTW2EOpRJqKzEHe4Av3vyZTvxBDEM8sFhDhEO5WWob49nfMA4y_MaD7uFtnNLTQgtSemNMLoaM24Y0aqhKdZMdMkuQGgGfBH3-547hMcuqFxa25lnQk3jmNezRg7WLvdHqIxMyt9TdUbuY4l7LQUqA/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2818%29.png"
+      alt="separador "
       />
       <div className={`${monsieurLaDoulaise.className} text-7xl text-slate-950 sm:mt-0  md:p-10 md:translate-y-20 -mt-96 -translate-y-80 md:-mt-40 relative`} data-aos="fade" data-aos-delay="300">
         <div className="hidden md:block absolute inset-0 bg-[600px] opacity-50"></div>
@@ -133,7 +133,7 @@ export default function Isladelsol() {
 
     <div className="flex flex-wrap justify-center gap-5 p-4" data-aos="fade-up" data-aos-delay="600">
 
-  <div className="bg-[#fbfdfb] flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
+  <div className="bg-[#f5f9fc] flex flex-col shadow-xl border w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
   <div className={`${fraunces.className} p-2 m-3 text-2xl text-slate-900 text-center`}>
   Ceremonia Religiosa
         </div>
@@ -183,7 +183,7 @@ export default function Isladelsol() {
   </div>
 
  
-  <div className="bg-[#fbfdfb] flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
+  <div className="bg-[#f5f9fc] flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
     <h4 className="p-2 m-3 text-2xl font-serif text-gray-950 text-center">
       Recepción
     </h4>
