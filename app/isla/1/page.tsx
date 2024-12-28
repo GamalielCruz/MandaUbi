@@ -150,7 +150,7 @@ export default function Isladelsol() {
         Sabado 26 de diciembre <br />
         17:30 HRS
       </p>
-      <p className={`${fraunces.className} text-sm text-gray-950 mt-4 font-light`}>
+      <p className={`${fraunces.className} p-2 text-sm text-gray-950 mt-4 font-light`}>
         Parroquia de Nuestra Señora de la Luz <br />
         Av. de la Luz S/N, Santa Ana, 76116 Santiago de Querétaro, Qro.
       </p>
@@ -158,7 +158,7 @@ export default function Isladelsol() {
     <div className="flex justify-center p-4 gap-2">
       <a
         href="https://www.google.com"
-        className="text-gray-950 bg-[#eefaff] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-gray-950 bg-[#d4ebf5] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -184,9 +184,9 @@ export default function Isladelsol() {
 
  
   <div className="bg-[#f5f9fc] flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
-    <h4 className="p-2 m-3 text-2xl font-serif text-gray-950 text-center">
+    <div className={`${fraunces.className} p-2 m-3 text-2xl text-gray-950 text-center `}>
       Recepción
-    </h4>
+    </div>
     <div className="overflow-hidden rounded-md h-40 flex justify-center items-center">
       <img
         className="w-20"
@@ -194,12 +194,12 @@ export default function Isladelsol() {
         alt="Recepción"
       />
     </div>
-    <div className="p-2 text-center">
-      <p className="text-sm font-serif text-gray-950 uppercase">
+    <div className={`${fraunces.className}p-2 text-center`}>
+      <p className="text-sm text-gray-950 uppercase">
         Sabado 26 de diciembre <br />
         19:40 HRS
       </p>
-      <p className="text-base font-serif text-gray-950 mt-4 font-light">
+      <p className={`${fraunces.className} p-2 text-sm text-gray-950 mt-4 font-light`}>
         Lantana Jardín y Salones <br />
         Fraccionamiento Pirámides, Unnamed Road, 76900 Corregidora, Qro.
       </p>
@@ -207,7 +207,7 @@ export default function Isladelsol() {
     <div className="flex justify-center p-4 gap-2">
       <a
         href="https://www.google.com"
-        className="text-gray-950 bg-[#eefaff] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
+        className="text-gray-950 bg-[#d4ebf5] hover:bg-[#e2f6ff]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -448,6 +448,7 @@ export default function Isladelsol() {
         <h4 className="p-2 m-3 text-2xl font-serif text-slate-900 text-center">
             Por Teléfono
         </h4>
+        
         <div className="flex justify-center p-4 gap-2">
         <a href="https://www.whatsapp.com" className="text-white bg-[#322c08a0] hover:bg-[#322c08]/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center" target="_blank" rel="noopener noreferrer">
                 Con Brenda
