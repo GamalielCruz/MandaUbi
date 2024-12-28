@@ -90,7 +90,7 @@ export default function Isladelsol() {
         
     <img
       className="  md:w-60 lg:w-80 "
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhXlpvI_sRokDuVYzxlJuN4pD65VSCx1UOZ4SZEPPFSciwEahe0Mgw7KZ1m-qIbiWXUvRmwVMn4Ndr4S0TY-ZDMPeaXvXtlLev-P83ukHRPu0WFa-MMeIRWuh14IVy4Ev7J4v0zJlYlG8YLDiOiviFwDl53m_zV4yztJ0vpFr9zr0ZkCuf4SdJyGYwJDk/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2815%29.png"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ_mtaVgR_8FPbWjj_n2SYbfslyYT3_AsKMwzzp0BSXshSYfZJ6w0U4DBUuzQtmvfcILIpNzcnlFXFP7qgQOhp1Ys3AM-03FPqnN27H8P3PWR35aKtAkzxmDb23BMub3vHyc8BZfgM_FeS8g-r1aUxaJ1HyJnN8FSkupe9SqEMlQ2_wxMz_WGDItthmY4/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2819%29.png"
       alt="separador"
     />
   </div>
@@ -180,9 +180,7 @@ export default function Isladelsol() {
         Ir a la Ubicación
       </a>
     </div>
-  </div>
-
- 
+  </div> 
   <div className="bg-[#f5f9fc] flex flex-col shadow-xl border  w-full sm:w-80 max-w-sm" data-aos="fade-up" data-aos-delay="600">
     <div className={`${fraunces.className} p-2 m-3 text-2xl text-gray-950 text-center `}>
       Recepción
