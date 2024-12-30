@@ -248,7 +248,7 @@ export default function Isladelsol() {
     </div>
 
     {/* mensaje de los novios */}
-    <div className='  flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600"'>
+    <div className=' relative justify-center items-center " data-aos="fade-up" data-aos-delay="600"'>
     <div className={`${monsieurLaDoulaise.className} text-center text-6xl translate-y-10`}>
         Galeria de fotos
     </div>
@@ -261,7 +261,7 @@ export default function Isladelsol() {
     </div>
     <div>
       
-      <div className="flex min-h-screen flex-col items-center justify-center -translate-y-20">
+      <div className="flex min-h-screen flex-col items-center justify-center ">
         <ImageSlider />
       </div>
     </div>
