@@ -1,6 +1,7 @@
 import 'add-to-calendar-button';
 import { Monsieur_La_Doulaise } from '@next/font/google';
 import { Fraunces } from '@next/font/google';
+import ImageSlider from '@/components/slider';
 
 
 const monsieurLaDoulaise = Monsieur_La_Doulaise({
@@ -115,6 +116,7 @@ export default function Isladelsol() {
            alt="Imagen de separador vertical"
             />
     </div>
+     
     {/* Ubicación */}       
     <div className="relative p-10">
       
@@ -237,9 +239,33 @@ export default function Isladelsol() {
 
     </div>
     {/* Separador */}  
-    <div>
-    <div className="bg-yellow-950 text-transparent opacity-50">-</div>
+    <div className='relative flex justify-center mask-image'>
+    <img
+      className="w-6"
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdqmYPVdg9JyIwx2Q1Ji7pfrz3Fi2UGfMaL0oMo21qNfQ0xwMbt5D6hhwX6Ajwyw0esJrVwS3D3kUsRYIVNdinYI2rsHpuoWctXxOOIaoqAb6mz15NjVgzlw5K151iBXqs2ab8gYhH_MxJEt86pQRz3oTFJoZiBzm_EioWXpswiyFrbfVDcWG_BUel2k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2820%29.png"
+      alt="separador"
+    />
     </div>
+
+    {/* mensaje de los novios */}
+    <div className='p-10  flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600"'>
+    <div className={`${monsieurLaDoulaise.className} text-center text-6xl translate-y-10`}>
+        Galeria de fotos
+    </div>
+    <img
+      className="  md:w-60 lg:w-80 "
+      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyEC7T9sedGs9L7PtpLMLNJ07TGoC_F6VP3TQrPI4nbYkr34j7P8hSEAwasBFP56KYVy9RVBXtsi6TGX9ZUXZWlkyB_nYz3ruJVT2zzPej1Gn-qoGOTC5QqlPfzHgScUOsthYbTGjlmVpny1UDZuCQ0U-izd0JbRGYnEw2k95RFhxbWTZrs32OxL2d3TY/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2821%29.png"
+      alt="separador"
+    />
+    
+    </div>
+    <div>
+      
+      <div className="flex min-h-screen flex-col items-center justify-center py-2">
+        <ImageSlider />
+      </div>
+    </div>
+
     {/* Mesa de regalos */}    
     <div className="relative">
       
@@ -308,10 +334,7 @@ export default function Isladelsol() {
 </div>
 
     </div>
-    {/* Separador */}  
-    <div>
-    <div className="bg-yellow-950 text-transparent opacity-50">-</div>
-    </div>
+    
     {/* Información familiar mas fotos */}       
     <div className="flex flex-col items-center p-5">
 
