@@ -67,9 +67,9 @@ export default function ImageSlider(): JSX.Element {
   };
 
   return (
-    <div className="relative w-4/5 mx-auto mt-4 max-h-min p-10 m-10 shadow-lg rounded-xl bg-[#111927]">
+    <div className="relative w-full sm:w-4/5 mx-auto  max-h-min    ">
       <div
-        className="relative h-[560px] mx-12 group "
+        className="relative h-[300px] sm:h-[560px] w-full group"
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
@@ -78,17 +78,17 @@ export default function ImageSlider(): JSX.Element {
           alt={`Slider Image ${currentIndex + 1}`}
           layout="fill"
           objectFit="cover"
-          className="rounded-xl transition-all duration-500 "
+          className=" transition-all duration-500"
         />
       </div>
       <button
-        className="absolute left-0 top-1/2 transform h-[459px] rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
+        className="absolute left-0 top-1/2 transform h-[300px] sm:h-[459px]   mx-1 -mt-[10px] -translate-y-1/2  text-white  group"
         onClick={prevSlide}
       >
         <ChevronLeft className="text-gray-400 group-hover:text-white" />
       </button>
       <button
-        className="absolute right-0 top-1/2 transform h-[459px] rounded-xl hover:bg-[#1a222f] mx-1 -mt-[10px] -translate-y-1/2 bg-[#111927] text-white p-2 group"
+        className="absolute right-0 top-1/2 transform h-[300px] sm:h-[459px]  mx-1 -mt-[10px] -translate-y-1/2 bg-[#f9f9f900] text-white p-2 group"
         onClick={nextSlide}
       >
         <ChevronRight className="text-gray-400 group-hover:text-white" />
@@ -97,7 +97,7 @@ export default function ImageSlider(): JSX.Element {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`h-1 w-10 mx-1 ${
+            className={`h-1 w-6 sm:w-10 mx-1 ${
               index === currentIndex
                 ? "bg-[#beff46] rounded-xl"
                 : "bg-gray-300 rounded-xl"
