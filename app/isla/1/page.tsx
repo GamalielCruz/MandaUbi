@@ -239,7 +239,7 @@ export default function Isladelsol() {
 
     </div>
     {/* Separador */}  
-    <div className='relative flex justify-center mask-image'>
+    <div className='relative flex justify-center '>
     <img
       className="w-6"
       src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdqmYPVdg9JyIwx2Q1Ji7pfrz3Fi2UGfMaL0oMo21qNfQ0xwMbt5D6hhwX6Ajwyw0esJrVwS3D3kUsRYIVNdinYI2rsHpuoWctXxOOIaoqAb6mz15NjVgzlw5K151iBXqs2ab8gYhH_MxJEt86pQRz3oTFJoZiBzm_EioWXpswiyFrbfVDcWG_BUel2k/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2820%29.png"
@@ -248,7 +248,7 @@ export default function Isladelsol() {
     </div>
 
     {/* mensaje de los novios */}
-    <div className=' relative justify-center items-center " data-aos="fade-up" data-aos-delay="600"'>
+    <div className=' flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600" translate-y-32'>
     <div className={`${monsieurLaDoulaise.className} text-center text-6xl translate-y-10`}>
         Galeria de fotos
     </div>

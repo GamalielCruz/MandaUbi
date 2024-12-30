@@ -67,28 +67,33 @@ export default function ImageSlider(): JSX.Element {
   };
 
   return (
-    <div className="relative w-full sm:w-4/5 mx-auto  max-h-min    ">
+    <div className="relative w-full sm:w-4/5 mx-auto max-h-min">
       <div
-        className="relative h-[300px] sm:h-[560px] w-full group"
+        className="relative h-[300px] sm:h-[560px] w-full group overflow-hidden"
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
-        <Image
-          src={images[currentIndex].src}
-          alt={`Slider Image ${currentIndex + 1}`}
-          layout="fill"
-          objectFit="cover"
-          className=" transition-all duration-500"
-        />
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            src={image.src}
+            alt={`Slider Image ${index + 1}`}
+            layout="fill"
+            objectFit="cover"
+            className={`absolute transition-opacity duration-1000 ease-in-out ${
+              index === currentIndex ? "opacity-100" : "opacity-0"
+            }`}
+          />
+        ))}
       </div>
       <button
-        className="absolute left-0 top-1/2 transform h-[300px] sm:h-[459px]   mx-1 -mt-[10px] -translate-y-1/2  text-white  group"
+        className="absolute left-0 top-1/2 transform h-[300px] sm:h-[459px] mx-1 -mt-[10px] -translate-y-1/2 text-white group"
         onClick={prevSlide}
       >
         <ChevronLeft className="text-gray-400 group-hover:text-white" />
       </button>
       <button
-        className="absolute right-0 top-1/2 transform h-[300px] sm:h-[459px]  mx-1 -mt-[10px] -translate-y-1/2 bg-[#f9f9f900] text-white p-2 group"
+        className="absolute right-0 top-1/2 transform h-[300px] sm:h-[459px] mx-1 -mt-[10px] -translate-y-1/2 bg-[#f9f9f900] text-white p-2 group"
         onClick={nextSlide}
       >
         <ChevronRight className="text-gray-400 group-hover:text-white" />
@@ -99,7 +104,7 @@ export default function ImageSlider(): JSX.Element {
             key={index}
             className={`h-1 w-6 sm:w-10 mx-1 ${
               index === currentIndex
-                ? "bg-[#beff46] rounded-xl"
+                ? "bg-[#c1e185] rounded-xl"
                 : "bg-gray-300 rounded-xl"
             } transition-all duration-500 ease-in-out`}
           ></div>
