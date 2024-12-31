@@ -283,7 +283,7 @@ export default function Isladelsol() {
     {/* Parallax Scrolling Section */}
     <div className="relative h-screen overflow-hidden">
       <div
-        className="absolute top-0 left-0 w-full h-full bg-fixed bg-center bg-cover blur-sm md:bg-fixed"
+        className="absolute top-0 left-0 w-full h-full bg-fixed bg-center  "
         style={{
           backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEAJ3-KUtzckuuSkM9Fr3JJ1TFJLKKoX-NmIWzhE3v6NxdT5mQ8joGotXGceDVUtxCTu69FQemf7Z66DiH3e-JrY9Eg41gOOejVb3ModMEVa0K7eG4HXxkkgRu_-H_VoB90yFwykmYJ6XhpMpoCxarN1c71-El6dvMl_EZgAD_WOZtPwMWmxxzQMwDIs/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2827%29.png')`,
         }}
