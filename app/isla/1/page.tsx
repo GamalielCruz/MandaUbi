@@ -247,8 +247,9 @@ export default function Isladelsol() {
     />
     </div>
 
-    {/* mensaje de los novios */}
-    <div className=' flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600" translate-y-32'>
+    {/* Galeria de fotos */}
+    <div>
+    <div className=' flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600" translate-y-20'>
     <div className={`${monsieurLaDoulaise.className} text-center text-6xl translate-y-10`}>
         Galeria de fotos
     </div>
@@ -260,9 +261,45 @@ export default function Isladelsol() {
     
     </div>
     <div>
-      
       <div className="flex min-h-screen flex-col items-center justify-center ">
         <ImageSlider />
+      </div>
+    </div>
+    </div>
+    {/* Intinerario */}
+    <div className="flex flex-col items-center justify-center h-full text-white">
+      <div className="flex flex-col justify-center items-center p-20 " data-aos="fade-up" data-aos-delay="600">
+      <div className={`${monsieurLaDoulaise.className}   text-center text-6xl text-black  translate-y-10`}>
+        Itinerario
+      </div>
+      <img
+        className="md:w-60 lg:w-80 mt-4"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizfvqWrpyPaYI2szgjjtBwbtvTuevo3DQUc1jE9jsDQ_CJmjNJAt_zItsXgqq406IJDJIy2w00sb_xRVjEJZxjNooY3FcsWNBEsMpa30J5J0i3g7M7l-wd9rADC7l1FSAhAi2UIJsrVOTbsFnGjD49qbaMVRd88oVcbMJ7JpUTAHbwKfSJLoNU4pnaw7M/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2826%29.png"
+        alt="separador"
+      />
+      
+      </div>
+      </div>
+    {/* Parallax Scrolling Section */}
+    <div className="relative h-screen overflow-hidden">
+      <div
+      className="absolute top-0 left-0 w-full h-full bg-fixed bg-center bg-cover blur-sm"
+      style={{
+        backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEAJ3-KUtzckuuSkM9Fr3JJ1TFJLKKoX-NmIWzhE3v6NxdT5mQ8joGotXGceDVUtxCTu69FQemf7Z66DiH3e-JrY9Eg41gOOejVb3ModMEVa0K7eG4HXxkkgRu_-H_VoB90yFwykmYJ6XhpMpoCxarN1c71-El6dvMl_EZgAD_WOZtPwMWmxxzQMwDIs/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2827%29.png')`,
+      }}
+      ></div>
+      <div className="flex justify-center items-center p-0 ">
+        <div className="flex justify-items-center font-mono font-bold items-center text-center justify-center p-2  border-white border-2 text-gray-900 rounded-lg  " data-aos="fade-up" data-aos-delay="600">
+        Sesión fotográfica
+        <img
+          className="p-3"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhVz9OkNnvflPQ7afR1pi8hTgSrssrgSPuVZACYZGgEp98fQE55kB4xptp_egyum2AL4dSysO_cExycp3BUXWQadnrMiw0xoYEZnHtryGjHxViCyHTx3hY8mc9gMhmod9KgmV7bsqpZBsyC9wb_hSZboQy_emqzD9XNdNkCSci6YUH_Bmt_nMc0Fm44tQ/s1600/icons8-camara-de-manzana-50.png"
+          alt="separador"
+        />
+        Casa de la Novia
+        <br />
+        12:00 PM
+        </div>
       </div>
     </div>
 
