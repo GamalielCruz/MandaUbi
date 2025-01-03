@@ -309,6 +309,7 @@ export default function ScrollColorChange() {
       
       <div className=" justify-center items-center p-0  ">
       <div>
+        
       <div
         ref={targetRef}
         className="flex flex-col justify-center items-center"
@@ -320,26 +321,31 @@ export default function ScrollColorChange() {
             color: bgColor === "#ffffff" ? "#000000" : "#000000",
           }}
           transition={{ duration: 3, delay: 0 }}
-          className="flex p-5 m-5"
+          className=" w-11/12  md:w-2/5 flex flex-col md:flex-row items-center justify-items-center "
         >
           <img
-            className="p-3 flex flex-col h-14 w-14 justify-center items-center place-items-center"
+            className="p-5  h-20 w-20   md:border-e-2 border-slate-900 "
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhVz9OkNnvflPQ7afR1pi8hTgSrssrgSPuVZACYZGgEp98fQE55kB4xptp_egyum2AL4dSysO_cExycp3BUXWQadnrMiw0xoYEZnHtryGjHxViCyHTx3hY8mc9gMhmod9KgmV7bsqpZBsyC9wb_hSZboQy_emqzD9XNdNkCSci6YUH_Bmt_nMc0Fm44tQ/s1600/icons8-camara-de-manzana-50.png"
             alt="separador"
           />
-          <div className="font-mono">
-            Sesión de fotos con las damas de honor
+          <div className="font-mono  m-2 w-full">
+           <div className='p-1 -translate-y-1 font-bold'>
+           Sesión de fotos con las damas de honor
+            </div>
+            <div className='text-gray-800 p-1'>
+            En casa de la novia.
+            </div>
             <br />
-            Casa de la Novia
-            <br />
+            <div className='text-gray-600  text-right p-1'>
             12:00 PM
+            </div>
           </div>
         </motion.div>
       </div>
 
       <div
         ref={targetRef}
-        className="flex flex-col justify-center items-center"
+        className=" flex flex-col justify-center items-center"
       >
         <motion.div
           initial={{ backgroundColor: "#ffffff", color: "#000000" }}
@@ -347,27 +353,33 @@ export default function ScrollColorChange() {
             backgroundColor: bgColor,
             color: bgColor === "#ffffff" ? "#000000" : "#000000",
           }}
-          transition={{ duration: 3, delay: 2 }}
-          className="flex p-5 m-5"
+          transition={{ duration: 3, delay: 1 }}
+          className=" w-11/12  md:w-2/5 flex flex-col md:flex-row items-center justify-items-center "
         >
           <img
-            className="p-3 flex flex-col h-14 w-14 justify-center items-center place-items-center"
+            className="p-5  h-20 w-20   md:border-e-2 border-slate-900 "
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF0NuFsqpAiThwmeUHZ3Xe60JAyji3MLFJxm1znzuM4Y5knPZwDxADM-U6EET502jFXSFjKF5zGPHevIdo9G-s0u4ovzZ3W-HkP7qhcutiY8azs4yPNGjxlhdiKpuHvDDu8DJJehoocGUzGOl8WsOBfpH0Sx3pKJwshHC2FuR4CdSRJ3yDnx_ixJ0p5IY/s1600/a%20%2815%29.png"
             alt="separador"
           />
-          <div className="font-mono">
-            Reunión previa.
-            <br />
+          <div className="font-mono  m-2 w-full">
+           <div className='p-1 -translate-y-1 font-bold'>
+           Reunión previa.
+            </div>
+            <div className='p-1 text-gray-800 '>
             En el lobby del hotel.
+            </div>
             <br />
+            <div className='p-1 text-gray-600  text-right'>
             1:30 PM
+            </div>
           </div>
         </motion.div>
       </div>
 
 
        
-    </div>
+      </div>
+
       </div>
     </div>
 
