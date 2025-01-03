@@ -1,8 +1,11 @@
+
+"use client";
 import 'add-to-calendar-button';
 import { Monsieur_La_Doulaise } from '@next/font/google';
 import { Fraunces } from '@next/font/google';
 import ImageSlider from '@/components/slider';
-
+import { motion } from "framer-motion";
+import { useState, useEffect, useRef  } from 'react';
 
 const monsieurLaDoulaise = Monsieur_La_Doulaise({
   subsets: ['latin'],
@@ -18,12 +21,39 @@ const fraunces = Fraunces({
 
 
 
-export default function Isladelsol() {
+
+export default function ScrollColorChange() {
+  const [bgColor, setBgColor] = useState("#ffffff"); // Color inicial
+  const targetRef = useRef(null); // Referencia a la sección objetivo
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const [entry] = entries;
+        if (entry.isIntersecting) {
+          setBgColor("#FCE7F3"); // Cambia el color al intersectar
+        } else {
+          setBgColor("#ffffff"); // Regresa al estado inicial
+        }
+      },
+      {
+        root: null, // Usa el viewport como contenedor
+        threshold: 1.0, // 50% del elemento debe ser visible
+      }
+    );
+
+    if (targetRef.current) {
+      observer.observe(targetRef.current);
+    }
+
+    return () => {
+      if (targetRef.current) observer.unobserve(targetRef.current);
+    };
+  }, []);
+
   return (
     <>
     <>
-    
-
     <div className="bg-[#fbfdff]">
       <script src="https://cdn.jsdelivr.net/npm/add-to-calendar-button@2" async defer></script>
     
@@ -74,14 +104,8 @@ export default function Isladelsol() {
     </div>
       </div>
     </div>
-
-    
     
     </div>
-
-    
-
-
     {/* Separador y contador */}    
     <div className="relative justify-items-center -translate-y-64 p-10 md:translate-y-14  ">
   <div className=" flex flex-col justify-center items-center " data-aos="fade-up" data-aos-delay="600">
@@ -281,25 +305,64 @@ export default function Isladelsol() {
       </div>
       </div>
     {/* Parallax Scrolling Section */}
-    <div className="relative h-screen overflow-hidden">
+    <div className="-translate-y-16">
+      
+      <div className=" justify-center items-center p-0  ">
+      <div >
       <div
-        className="absolute top-0 left-0 w-full h-full bg-fixed bg-center  "
-        style={{
-          backgroundImage: `url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGEAJ3-KUtzckuuSkM9Fr3JJ1TFJLKKoX-NmIWzhE3v6NxdT5mQ8joGotXGceDVUtxCTu69FQemf7Z66DiH3e-JrY9Eg41gOOejVb3ModMEVa0K7eG4HXxkkgRu_-H_VoB90yFwykmYJ6XhpMpoCxarN1c71-El6dvMl_EZgAD_WOZtPwMWmxxzQMwDIs/s1600/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2827%29.png')`,
+        ref={targetRef}
+        className=" flex flex-col justify-center items-center "
+      >
+      <motion.div
+        initial={{ backgroundColor: "#ffffff", color: "#000000" }}
+        animate={{
+          backgroundColor: bgColor,
+          color: bgColor === "#ffffff" ? "#000000" : "#000000",
         }}
-      ></div>
-      <div className="flex justify-center items-center p-0 ">
-        <div className="flex justify-items-center font-mono font-bold items-center text-center justify-center p-2  border-white border-2 text-gray-900 rounded-lg  " data-aos="fade-up" data-aos-delay="600">
-        Sesión fotográfica
+        transition={{ duration: 3 }}
+        className="flex p-5 m-5"
+      >
         <img
-          className="p-3"
+          className="p-3 flex flex-col"
           src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhVz9OkNnvflPQ7afR1pi8hTgSrssrgSPuVZACYZGgEp98fQE55kB4xptp_egyum2AL4dSysO_cExycp3BUXWQadnrMiw0xoYEZnHtryGjHxViCyHTx3hY8mc9gMhmod9KgmV7bsqpZBsyC9wb_hSZboQy_emqzD9XNdNkCSci6YUH_Bmt_nMc0Fm44tQ/s1600/icons8-camara-de-manzana-50.png"
           alt="separador"
         />
-        Casa de la Novia
-        <br />
-        12:00 PM
+        <div className='font-mono'>
+          Sesión fotográfica
+          <br />
+          Casa de la Novia
+          <br />
+          12:00 PM
         </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ backgroundColor: "#ffffff", color: "#000000" }}
+        animate={{
+          backgroundColor: bgColor,
+          color: bgColor === "#ffffff" ? "#000000" : "#000000",
+        }}
+        transition={{ duration: 3 }}
+        className="flex p-5 m-5"
+      >
+        <img
+          className="p-3 flex flex-col"
+          src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhVz9OkNnvflPQ7afR1pi8hTgSrssrgSPuVZACYZGgEp98fQE55kB4xptp_egyum2AL4dSysO_cExycp3BUXWQadnrMiw0xoYEZnHtryGjHxViCyHTx3hY8mc9gMhmod9KgmV7bsqpZBsyC9wb_hSZboQy_emqzD9XNdNkCSci6YUH_Bmt_nMc0Fm44tQ/s1600/icons8-camara-de-manzana-50.png"
+          alt="separador"
+        />
+        <div className='font-mono'>
+          Sesión fotográfica
+          <br />
+          Casa de la Novia
+          <br />
+          12:00 PM
+        </div>
+      </motion.div>     
+      </div>
+
+      {/* Elemento animado */}
+     
+    </div>
       </div>
     </div>
 

@@ -7,3 +7,10 @@
 @import "additional-styles/theme.css";
 
 @import "tailwindcss/utilities";
+
+#scrollDiv {
+    background-color: #ffffff; /* Blanco inicial */
+    color: #000000; /* Texto negro */
+    transition: background-color 0.5s ease, color 0.5s ease; /* Suaviza cambios */
+  }
+  
